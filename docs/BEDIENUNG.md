@@ -68,6 +68,12 @@ aktivierten Bewegungssensor. Der Pi bleibt erreichbar und synchronisiert weiter.
 
 ## Bilderrahmen verwalten
 
+Unter **Bilderrahmen** steht die **Verbindungs-IP** eines Geräts direkt unter
+dem Verbindungsstatus. Die Zentrale erfasst sie beim nächsten Abgleich; dafür
+ist kein Player-Update nötig. Die Adresse ist die vom Server gesehene Quell-IP.
+Bei einem Reverse Proxy oder NAT kann dort eine Zwischenadresse statt der
+direkt per SSH erreichbaren Pi-Adresse stehen.
+
 1. **Standort & Freigaben:** Name, Gruppe und Zulassung interner Inhalte.
 2. **Hauptanzeige · Standardinhalt:** Fotos, Dokument oder gemeinsame Liste, Meldungen oder Gemischt.
 3. **Bildschirm teilen:** Aufteilung, Hauptseite, Vorschau und Standardinhalt des Zusatzbereichs.
