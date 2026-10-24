@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120" role="img" aria-labelledby="title desc">
+  <title id="title">KitaFenster · Beispiel-Logo</title>
+  <desc id="desc">Ein freundliches Haus unter einer Sonne, umgeben von bunten Bausteinen.</desc>
+  <rect x="3" y="3" width="234" height="114" rx="28" fill="#f5f2e9"/>
+  <circle cx="173" cy="32" r="15" fill="#eab859"/>
+  <path d="M172 10V6m20 26h5m-9-15 4-4" stroke="#eab859" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 53 120 23 156 53" fill="none" stroke="#32746b" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 54h64v49H88z" fill="#76a296"/>
+  <rect x="113" y="74" width="17" height="29" rx="8" fill="#f5f2e9"/>
+  <rect x="99" y="57" width="12" height="12" rx="3" fill="#f5f2e9"/>
+  <rect x="131" y="57" width="12" height="12" rx="3" fill="#f5f2e9"/>
+  <rect x="52" y="78" width="28" height="25" rx="5" fill="#eab859"/>
+  <path d="m55 73 11-18 11 18z" fill="#d48778"/>
+  <rect x="160" y="85" width="28" height="18" rx="5" fill="#d48778"/>
+  <path d="M43 104h155" stroke="#32746b" stroke-width="3" stroke-linecap="round"/>
+</svg>

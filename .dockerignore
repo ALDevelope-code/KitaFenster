@@ -1,0 +1,40 @@
+# Match subdirectories too: local Python bytecode can contain absolute paths.
+**/.git
+**/.venv
+**/__pycache__
+**/*.py[cod]
+**/.pytest_cache
+**/.ruff_cache
+
+# Keep only the neutral environment template used by Dockerfile and releases.
+**/.env
+**/.env.*
+!.env.example
+**/player.json
+**/preview-access.json
+**/private-anleitungen
+**/hardware
+**/testdaten
+
+# Operator data and logs must never enter the build context.
+**/data
+**/demo-nas
+**/local-data
+**/local-nas
+**/player-data
+**/backups
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-*
+**/*.sqlite3-*
+**/*.db
+**/*.db-*
+**/*.log
+**/logs
+
+# Generated artifacts
+**/test-results
+**/dist
+**/build
+**/image-artifact
+**/*.egg-info

@@ -1,0 +1,7 @@
+# Nur für lokale Entwicklung bzw. einen eigenen Build aus dem vollständigen Quellbaum.
+# docker compose --env-file .env.example -f compose.yaml -f compose.build.yaml up -d --build
+services:
+  verwaltung:
+    image: kitafenster:local
+    build: .
+    pull_policy: never

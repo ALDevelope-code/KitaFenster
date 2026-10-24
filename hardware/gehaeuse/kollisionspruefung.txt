@@ -1,0 +1,52 @@
+unabhaengige Pruefung der exportierten Bauteile mit manifold3d.
+Keine physische Passungs-, Werkstoff-, Temperatur- oder Wandlastpruefung.
+geteilt: acht Haltestege gemessen: Ansatz 6.000 bis 7.000 mm (unten inkl. Wand); freie Kante 3.003 bis 3.004 mm. Untere Auflagen Y=7.000 mm.
+geteilt: beide unteren Original-Gummipads (1 mm) haben freien Raum; Monitorposition unveraendert.
+geteilt: Deckel axial einfuehrbar; 0.2 mm Querversatz frei, 0.35 mm wird vom Rand begrenzt.
+Klebekeil_Front_1: Einfuehren mit vergroessertem Z-Spiel frei; 0.1 mm Ueberhub blockiert; kein Selbstspannen vorausgesetzt.
+Klebekeil_Front_2: Einfuehren mit vergroessertem Z-Spiel frei; 0.1 mm Ueberhub blockiert; kein Selbstspannen vorausgesetzt.
+Klebekeil_Front_3: Einfuehren mit vergroessertem Z-Spiel frei; 0.1 mm Ueberhub blockiert; kein Selbstspannen vorausgesetzt.
+Klebekeil_Front_4: Einfuehren mit vergroessertem Z-Spiel frei; 0.1 mm Ueberhub blockiert; kein Selbstspannen vorausgesetzt.
+Klebekeil_Deckel_1: Einfuehr-/Schliessweg geprueft; 0.30 mm zusaetzliche Fuge muss sich beim Setzen schliessen; 0.1 mm Ueberhub blockiert.
+Klebekeil_Deckel_2: Einfuehr-/Schliessweg geprueft; 0.30 mm zusaetzliche Fuge muss sich beim Setzen schliessen; 0.1 mm Ueberhub blockiert.
+Klebekeil_Deckel_3: Einfuehr-/Schliessweg geprueft; 0.30 mm zusaetzliche Fuge muss sich beim Setzen schliessen; 0.1 mm Ueberhub blockiert.
+geteilt: Pi-Steckerhuelle / Druckteile: 0.000000 mm3
+geteilt: Pi-Steckerhuelle / Monitor: 0.000000 mm3
+geteilt: HDMI-Kabelraum / Druckteile: 0.000000 mm3
+geteilt: HDMI-Kabelraum / Monitor: 0.000000 mm3
+geteilt: Fingerzugang / Druckteile: 0.000000 mm3
+geteilt: Fingerzugang / Monitor: 0.000000 mm3
+geteilt: Strommodul-Reserve / Druckteile: 0.000000 mm3
+geteilt: Strommodul-Reserve / Monitor: 0.000000 mm3
+geteilt: USB-C-Leitungsausgang / Druckteile: 0.000000 mm3
+geteilt: USB-C-Leitungsausgang / Monitor: 0.000000 mm3
+geteilt: Monitorstufe 10.4/6.1 mm, Sichtfenster und USB-Ausschnitt mit M3x6 geprueft.
+geteilt: PIR sitzt am Deckel; M2-Schrauben/Scheiben, Zugriff von Linsenseite, Aufsetzweg und Herausziehen durch Frontoeffnung frei; vier Eckbereiche ohne Haltestege.
+geteilt: 15 Druckteile durch reine Rotation/Translation deckungsgleich mit STL; keine Spiegelung.
+geteilt: 165 paarweise Schnittpruefungen; groesstes Schnittvolumen 0.002487 mm3.
+geteilt: Wandschraubenkanale und vier gedruckte M10-Teller inkl. Schraubweg +/-1.5 mm geprueft.
+geteilt: sechs M3-Schliessschrauben samt Senkungen, Einsatzbohrungen, tragenden Ringen und Blindboeden; seitliche Mittelpunkte Y=124.1 mm; keine Schrauben in der permanenten Teilungsnaht.
+geteilt: Monitor-Pi Mindestabstand in der angenommenen Huelle: 1.70 mm.
+komplett: acht Haltestege gemessen: Ansatz 6.000 bis 7.000 mm (unten inkl. Wand); freie Kante 3.003 bis 3.004 mm. Untere Auflagen Y=7.000 mm.
+komplett: beide unteren Original-Gummipads (1 mm) haben freien Raum; Monitorposition unveraendert.
+komplett: Deckel axial einfuehrbar; 0.2 mm Querversatz frei, 0.35 mm wird vom Rand begrenzt.
+komplett: Pi-Steckerhuelle / Druckteile: 0.000000 mm3
+komplett: Pi-Steckerhuelle / Monitor: 0.000000 mm3
+komplett: HDMI-Kabelraum / Druckteile: 0.000000 mm3
+komplett: HDMI-Kabelraum / Monitor: 0.000000 mm3
+komplett: Fingerzugang / Druckteile: 0.000000 mm3
+komplett: Fingerzugang / Monitor: 0.000000 mm3
+komplett: Strommodul-Reserve / Druckteile: 0.000000 mm3
+komplett: Strommodul-Reserve / Monitor: 0.000000 mm3
+komplett: USB-C-Leitungsausgang / Druckteile: 0.000000 mm3
+komplett: USB-C-Leitungsausgang / Monitor: 0.000000 mm3
+komplett: Monitorstufe 10.4/6.1 mm, Sichtfenster und USB-Ausschnitt mit M3x6 geprueft.
+komplett: PIR sitzt am Deckel; M2-Schrauben/Scheiben, Zugriff von Linsenseite, Aufsetzweg und Herausziehen durch Frontoeffnung frei; vier Eckbereiche ohne Haltestege.
+komplett: 6 Druckteile durch reine Rotation/Translation deckungsgleich mit STL; keine Spiegelung.
+komplett: 39 paarweise Schnittpruefungen; groesstes Schnittvolumen 0.000000 mm3.
+komplett: Wandschraubenkanale und vier gedruckte M10-Teller inkl. Schraubweg +/-1.5 mm geprueft.
+komplett: sechs M3-Schliessschrauben samt Senkungen, Einsatzbohrungen, tragenden Ringen und Blindboeden; seitliche Mittelpunkte Y=124.1 mm; keine Schrauben in der permanenten Teilungsnaht.
+komplett: Monitor-Pi Mindestabstand in der angenommenen Huelle: 1.70 mm.
+1-mm-Polster in 0.2-mm-Taschen: nominal 0.8 mm Einbauraum / 0.2 mm Kompression.
+Reale Kabelbiegeradien, Monitorrueckkontur, PIR-Unterseite und Polsterhaerte muessen am Original geprueft werden.
+Alle digitalen Schnitt- und Formatpruefungen bestanden.

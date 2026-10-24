@@ -1,0 +1,40 @@
+# Python environment and generated caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+
+# Local settings and credentials; only the neutral root template is public
+.env
+.env.*
+!/.env.example
+player.json
+preview-access.json
+/private-anleitungen/
+
+# Operator data, database snapshots and logs
+data/
+demo-nas/
+local-data/
+local-nas/
+player-data/
+backups/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+logs/
+
+# Generated test and release artifacts
+test-results/
+dist/
+build/
+image-artifact/
+tools/qa_bedienungsanleitung*/
+*.egg-info/
+
+/.kilo/

@@ -1,0 +1,39 @@
+Native SketchUp-C-API-Pruefung: geteilt. Laengeneinheit mm. Geometriefaktor 10000.
+Vor Speichern: Front_1: Volumen 132903.330 mm3; geschlossen; Masse und Lage stimmen; 3366 Flaechen.
+Vor Speichern: Front_2: Volumen 114397.454 mm3; geschlossen; Masse und Lage stimmen; 2494 Flaechen.
+Vor Speichern: Rueckseite_1: Volumen 173507.503 mm3; geschlossen; Masse und Lage stimmen; 18084 Flaechen.
+Vor Speichern: Rueckseite_2: Volumen 171631.955 mm3; geschlossen; Masse und Lage stimmen; 15072 Flaechen.
+Vor Speichern: Klebekeil_Front_1: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Front_2: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Front_3: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Front_4: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Deckel_1: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Deckel_2: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Klebekeil_Deckel_3: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Vor Speichern: Andruckteller_1: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Vor Speichern: Andruckteller_2: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Vor Speichern: Andruckteller_3: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Vor Speichern: Andruckteller_4: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Vor Speichern: REFERENZ_Monitor: Volumen 631872.335 mm3; geschlossen; Masse und Lage stimmen; 212 Flaechen.
+Vor Speichern: REFERENZ_Pi_Platine: Volumen 5786.099 mm3; geschlossen; Masse und Lage stimmen; 796 Flaechen.
+Vor Speichern: REFERENZ_PIR: Volumen 17454.686 mm3; geschlossen; Masse und Lage stimmen; 2204 Flaechen.
+Vor Speichern: REFERENZ_USB_C: Volumen 4960.090 mm3; geschlossen; Masse und Lage stimmen; 436 Flaechen.
+Nach erneutem Laden: Front_1: Volumen 132903.330 mm3; geschlossen; Masse und Lage stimmen; 3366 Flaechen.
+Nach erneutem Laden: Front_2: Volumen 114397.454 mm3; geschlossen; Masse und Lage stimmen; 2494 Flaechen.
+Nach erneutem Laden: Rueckseite_1: Volumen 173507.503 mm3; geschlossen; Masse und Lage stimmen; 18084 Flaechen.
+Nach erneutem Laden: Rueckseite_2: Volumen 171631.955 mm3; geschlossen; Masse und Lage stimmen; 15072 Flaechen.
+Nach erneutem Laden: Klebekeil_Front_1: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Front_2: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Front_3: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Front_4: Volumen 815.922 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Deckel_1: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Deckel_2: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Klebekeil_Deckel_3: Volumen 1385.202 mm3; geschlossen; Masse und Lage stimmen; 348 Flaechen.
+Nach erneutem Laden: Andruckteller_1: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Nach erneutem Laden: Andruckteller_2: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Nach erneutem Laden: Andruckteller_3: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Nach erneutem Laden: Andruckteller_4: Volumen 1453.730 mm3; geschlossen; Masse und Lage stimmen; 4812 Flaechen.
+Nach erneutem Laden: REFERENZ_Monitor: Volumen 631872.335 mm3; geschlossen; Masse und Lage stimmen; 212 Flaechen.
+Nach erneutem Laden: REFERENZ_Pi_Platine: Volumen 5786.099 mm3; geschlossen; Masse und Lage stimmen; 796 Flaechen.
+Nach erneutem Laden: REFERENZ_PIR: Volumen 17454.686 mm3; geschlossen; Masse und Lage stimmen; 2204 Flaechen.
+Nach erneutem Laden: REFERENZ_USB_C: Volumen 4960.090 mm3; geschlossen; Masse und Lage stimmen; 436 Flaechen.

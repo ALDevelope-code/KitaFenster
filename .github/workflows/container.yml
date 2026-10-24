@@ -1,0 +1,144 @@
+name: Test and release
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    name: Tests and source checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      SDL_VIDEODRIVER: dummy
+      SDL_AUDIODRIVER: dummy
+      PYGAME_HIDE_SUPPORT_PROMPT: "1"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-server.txt
+            pyproject.toml
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements-server.txt
+          python -m pip install -e '.[player,test]'
+      - name: Check and test
+        run: |
+          python -m tools.release_info --check
+          python -m ruff check server player shared tests tools
+          python -m ruff format --check server player shared tests tools
+          node --check server/static/app.js
+          node --check server/static/motion.js
+          node --check server/static/device-settings.js
+          node --check server/static/document-actions.js
+          node --check server/static/split-display.js
+          node --check server/static/operating-hours.js
+          node --test tests/*.test.cjs
+          for script in deploy/*.sh; do bash -n "$script"; done
+          docker compose --env-file .env.example config --quiet
+          docker compose --env-file .env.example -f compose.yaml -f compose.build.yaml config --quiet
+          python -m pytest -q
+      - name: Validate release version
+        if: github.event_name == 'release' && !github.event.release.prerelease
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: python -m tools.release_info --tag "$RELEASE_TAG"
+
+  container:
+    name: Build and start Linux container
+    needs: checks
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+      - name: Build image for Synology DS224+
+        env:
+          SOURCE_URL: ${{ github.server_url }}/${{ github.repository }}
+          REVISION: ${{ github.sha }}
+        run: |
+          version=$(python -m tools.release_info)
+          docker build --platform linux/amd64 --tag kitafenster:checked \
+            --build-arg "APP_VERSION=$version" \
+            --build-arg "SOURCE_URL=$SOURCE_URL" \
+            --build-arg "REVISION=$REVISION" .
+      - name: Test running image with persistent data and read-only NAS
+        run: python -m tools.smoke_container kitafenster:checked
+      - name: Prepare versioned release files
+        if: github.event_name == 'release' && !github.event.release.prerelease
+        run: |
+          python -m tools.package_release
+          mkdir -p image-artifact
+          docker save kitafenster:checked | gzip > image-artifact/container.tar.gz
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: github.event_name == 'release' && !github.event.release.prerelease
+        with:
+          name: checked-container
+          path: image-artifact/container.tar.gz
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: github.event_name == 'release' && !github.event.release.prerelease
+        with:
+          name: release-files
+          path: |
+            dist/*.zip
+            dist/SHA256SUMS
+          retention-days: 7
+          if-no-files-found: error
+
+  publish:
+    name: Publish checked image and release downloads
+    if: github.event_name == 'release' && !github.event.release.prerelease
+    needs: container
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: checked-container
+          path: image-artifact
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: release-files
+          path: dist
+      - uses: docker/login-action@dbcb813823bdd20940b903addbd779551569679f # v4.6.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish exactly the image that passed the smoke test
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          version=$(python3 -m tools.release_info --tag "$RELEASE_TAG")
+          image="ghcr.io/${GITHUB_REPOSITORY,,}"
+          docker load --input image-artifact/container.tar.gz
+          docker tag kitafenster:checked "$image:$version"
+          docker push "$image:$version"
+          gh release upload "$RELEASE_TAG" dist/*.zip dist/SHA256SUMS --repo "$GITHUB_REPOSITORY" --clobber

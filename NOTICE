@@ -1,0 +1,17 @@
+KitaFenster
+Copyright (C) 2026 Andy Lungfiel (ALDevelope-code)
+
+KitaFenster is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License, version 3,
+as published by the Free Software Foundation (AGPL-3.0-only).
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+This license covers the project's original software source code,
+documentation, screenshots, default-logo.svg, synthetic sample data, and
+original housing design and print files under hardware/gehaeuse. Third-party
+dependencies retain their own licenses; see docs/THIRD-PARTY.md. Uploaded
+logos, photos, plans and other operator content are not licensed by this
+notice and are not part of the source release.

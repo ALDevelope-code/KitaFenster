@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#164b49" />
+    <title>KitaFenster · Der lokale digitale Bilderrahmen für Kitas</title>
+    <link rel="icon" href="/api/branding/logo" />
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="/static/motion.js" defer></script>
+    <script src="/static/operating-hours.js" defer></script>
+    <script src="/static/device-settings.js" defer></script>
+    <script src="/static/split-display.js" defer></script>
+    <script src="/static/document-actions.js" defer></script>
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <div id="login" class="login-wrap" hidden>
+      <section class="login-card">
+        <img
+          class="brand-mark"
+          src="/api/branding/logo"
+          data-kita-logo
+          alt="Logo der Kita"
+          width="170"
+          height="83"
+        />
+        <p class="eyebrow" data-kita-name>Unsere Kita</p>
+        <h1>Kleine Momente.<br />Für alle sichtbar.</h1>
+        <p class="muted">
+          Die Bilder und Informationen eurer Kita.<br />An einem Ort, für jede
+          Gruppe.
+        </p>
+        <form id="login-form">
+          <label
+            >Benutzername<input
+              name="username"
+              autocomplete="username"
+              required
+              autofocus
+          /></label>
+          <label
+            >Passwort<input
+              name="password"
+              type="password"
+              autocomplete="current-password"
+          /></label>
+          <p id="login-error" class="form-error" role="alert"></p>
+          <button class="primary full" type="submit">
+            Anmelden <span aria-hidden="true">→</span>
+          </button>
+        </form>
+        <p class="tiny">Lokal verbunden. Gemeinsam gestaltet.</p>
+        <p class="help license-links">
+          <a href="/api/license" target="_blank" rel="noopener"
+            >AGPLv3 · Lizenz</a
+          >
+          · <a href="/api/source">Quellcode</a>
+        </p>
+      </section>
+      <div class="login-art" aria-hidden="true">
+        <div class="art-sun"></div>
+        <div class="art-hill back"></div>
+        <div class="art-hill front"></div>
+        <span>Ein Fenster<br />in unseren Alltag.</span>
+      </div>
+    </div>
+    <div id="app" class="app-shell" hidden>
+      <aside class="sidebar">
+        <a class="brand" href="#overview"
+          ><img
+            src="/api/branding/logo"
+            data-kita-logo
+            width="170"
+            height="83"
+            alt="Logo der Kita"
+          /><span>KitaFenster<small data-kita-name>Unsere Kita</small></span></a
+        >
+        <p class="nav-label">ARBEITSPLATZ</p>
+        <nav aria-label="Hauptnavigation">
+          <button data-nav="overview">
+            <span class="nav-icon">▦</span> Übersicht
+          </button>
+          <button data-nav="devices">
+            <span class="nav-icon">▣</span> Bilderrahmen
+          </button>
+          <button data-nav="groups">
+            <span class="nav-icon">◉</span> Gruppen &amp; NAS
+          </button>
+          <button data-nav="content">
+            <span class="nav-icon">▤</span> Inhalte
+          </button>
+          <button data-nav="operating">
+            <span class="nav-icon">◷</span> Betriebszeiten
+          </button>
+          <button data-nav="branding">
+            <span class="nav-icon">⚙</span> Einrichtung
+          </button>
+        </nav>
+        <div class="sidebar-note">
+          <span class="note-icon">✳</span
+          ><strong>Ein guter Platz für<br />gemeinsame Momente.</strong>
+          <p>Fotos und Elterninfos direkt in die Vorräume eurer Gruppen.</p>
+        </div>
+        <div class="sidebar-bottom">
+          <span class="connection-dot"></span> Lokale Verwaltung<button
+            id="logout"
+            class="text-button"
+            title="Abmelden"
+            aria-label="Abmelden"
+          >
+            ↪
+          </button>
+        </div>
+      </aside>
+      <div class="workspace">
+        <header class="topbar">
+          <div class="topbar-location">
+            <img
+              class="mobile-logo"
+              src="/api/branding/logo"
+              data-kita-logo
+              width="170"
+              height="83"
+              alt="Logo der Kita"
+            />
+            <span
+              ><span class="topbar-appname">KitaFenster</span
+              ><span class="slash">/</span>
+              <strong id="breadcrumb">Übersicht</strong></span
+            >
+          </div>
+          <div class="topbar-right">
+            <span id="today"></span><span class="avatar">K</span>
+          </div>
+        </header>
+        <main id="main" tabindex="-1">
+          <div class="empty">Die Verwaltung wird geladen …</div>
+        </main>
+        <footer>
+          <div>KitaFenster · Der lokale digitale Bilderrahmen für Kitas · <span data-server-version>Serverversion wird geladen …</span></div>
+          <span data-kita-name>Unsere Kita</span>
+        </footer>
+      </div>
+    </div>
+    <dialog id="dialog"><div id="dialog-content"></div></dialog>
+    <div id="toast" role="status" hidden></div>
+  </body>
+</html>

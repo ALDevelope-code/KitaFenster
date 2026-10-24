@@ -1,0 +1,65 @@
+name: Fehler melden
+description: Ein reproduzierbares Problem in KitaFenster melden
+title: "[Fehler] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für die Meldung. Bitte keine echten Kinderfotos, Zugangsdaten, Datenbanken oder personenbezogenen Protokolle hochladen. Sicherheitsprobleme nach SECURITY.md vertraulich melden.
+  - type: input
+    id: version
+    attributes:
+      label: KitaFenster-Version
+      description: Die Serverversion steht unten in der Weboberfläche und unter Einrichtung.
+      placeholder: z. B. 0.2.1
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Betroffener Bereich
+      options:
+        - NAS / Container
+        - Webverwaltung
+        - Raspberry-Pi-Player
+        - Installation oder Update
+        - Dokumentation
+        - Anderer Bereich
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Welche Schritte führen mit neutralen Testdaten zum Problem?
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      description: NAS-Modell, DSM-Version, Pi-Modell, Raspberry Pi OS und Monitor – soweit relevant.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutz
+      options:
+        - label: Ich habe Anhänge und Protokolle auf Zugangsdaten und personenbezogene Inhalte geprüft.
+          required: true

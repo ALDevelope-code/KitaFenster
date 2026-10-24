@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Front_1",
+    "file": "stl_geteilt/Front_1.stl",
+    "raw_to_print": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "Front_2",
+    "file": "stl_geteilt/Front_2.stl",
+    "raw_to_print": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "Front_komplett",
+    "file": "stl_komplett/Front_komplett.stl",
+    "raw_to_print": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "Rueckseite_1",
+    "file": "stl_geteilt/Rueckseite_1.stl",
+    "raw_to_print": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ]
+  },
+  {
+    "name": "Rueckseite_2",
+    "file": "stl_geteilt/Rueckseite_2.stl",
+    "raw_to_print": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ]
+  },
+  {
+    "name": "Rueckseite_komplett",
+    "file": "stl_komplett/Rueckseite_komplett.stl",
+    "raw_to_print": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ]
+  },
+  {
+    "name": "Klebekeil_Front",
+    "file": "stl_geteilt/Klebekeil_Front.stl",
+    "raw_to_print": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ]
+  },
+  {
+    "name": "Klebekeil_Deckel",
+    "file": "stl_geteilt/Klebekeil_Deckel.stl",
+    "raw_to_print": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ]
+    ]
+  },
+  {
+    "name": "Andruckteller_M10",
+    "file": "stl_geteilt/Andruckteller_M10.stl",
+    "raw_to_print": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "name": "Andruckteller_M4",
+    "file": "nachruestung_M4/Andruckteller_M4.stl",
+    "raw_to_print": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  }
+]

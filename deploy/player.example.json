@@ -1,0 +1,8 @@
+{
+  "server_url": "http://NAS-IP:8088",
+  "device_id": "WIRD_BEIM_KOPPELN_ERZEUGT",
+  "token": "WIRD_BEIM_KOPPELN_ERZEUGT",
+  "cache_dir": "/home/frame/.config/kita-frame/cache",
+  "poll_seconds": 15,
+  "cache_limit_mb": 1024
+}

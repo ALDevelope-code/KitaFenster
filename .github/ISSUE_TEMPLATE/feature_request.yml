@@ -1,0 +1,30 @@
+name: Verbesserung vorschlagen
+description: Einen Anwendungsfall oder eine Verbesserung beschreiben
+title: "[Idee] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+      description: Bitte zuerst den Kita-Alltag oder technischen Anwendungsfall beschreiben.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Gewünschte Lösung
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Bisherige Lösung oder Alternativen
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Auswirkungen
+      options:
+        - label: Der Vorschlag betrifft Fotos oder personenbezogene Inhalte.
+        - label: Der Vorschlag benötigt einen externen Dienst oder Internetzugriff.
+        - label: Der Vorschlag verändert Installation oder Hardwareanforderungen.

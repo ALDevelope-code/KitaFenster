@@ -1,0 +1,40 @@
+[Unit]
+Description=KitaFenster Player (KMS/DRM)
+After=systemd-user-sessions.service network.target getty@tty1.service lightdm.service display-manager.service
+Conflicts=getty@tty1.service lightdm.service display-manager.service
+ConditionPathExists=/home/frame/.config/kita-frame/player.json
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=frame
+Group=frame
+SupplementaryGroups=video render audio input gpio
+# lgpio creates notification pipes in the working directory, which must be writable.
+RuntimeDirectory=kita-player
+RuntimeDirectoryMode=0700
+WorkingDirectory=/run/kita-player
+Environment=PYTHONPATH=/opt/kita-frame
+Environment=HOME=/home/frame
+Environment=SDL_VIDEODRIVER=KMSDRM
+# Avoid SDL's automatic renderer selection, which can yield a black image on Pi.
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_AUDIODRIVER=dummy
+Environment=PYGAME_HIDE_SUPPORT_PROMPT=1
+Environment=PYTHONUNBUFFERED=1
+# Only the console switch needs root; the player itself runs as frame.
+ExecStartPre=+/usr/bin/chvt 1
+ExecStart=/usr/bin/python3 -m player --config /home/frame/.config/kita-frame/player.json
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+UMask=0077
+StandardInput=tty-fail
+TTYPath=/dev/tty1
+TTYReset=yes
+TTYVHangup=yes
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

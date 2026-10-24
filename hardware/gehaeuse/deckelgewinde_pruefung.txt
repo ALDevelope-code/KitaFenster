@@ -1,0 +1,10 @@
+M10-Innengewinde: 0.20 mm radiale Zugabe, grosser Durchmesser 10.40 mm, Steigung 1.5 mm.
+geteilt, Halter 1: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000004 mm.
+geteilt, Halter 2: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000021 mm.
+geteilt, Halter 3: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000008 mm.
+geteilt, Halter 4: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000025 mm.
+komplett, Halter 1: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000004 mm.
+komplett, Halter 2: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000021 mm.
+komplett, Halter 3: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000008 mm.
+komplett, Halter 4: 33 Gewindeschnitte; Durchmesser 10.400 mm; Steigung 1.5 mm; maximale Konturabweichung nach einer Windung 0.000025 mm.
+Alle digitalen Deckelgewinde-Pruefungen bestanden.

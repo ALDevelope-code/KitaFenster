@@ -1,0 +1,5 @@
+Zusatzpruefung an den exportierten Gewinden.
+stl_geteilt/Andruckteller_M10.stl: Rechtsgewinde; nach P/4 +90.00 Grad, nach P Rest 0.00 Grad; P=1.5 mm, gemessener Aussendurchmesser 9.900 mm.
+nachruestung_M4/Andruckteller_M4.stl: Rechtsgewinde; nach P/4 +90.00 Grad, nach P Rest 0.00 Grad; P=0.7 mm, gemessener Aussendurchmesser 3.950 mm.
+M10: ohne Drehung ist 0.75 mm Vorschub blockiert (42.443 mm3 Ueberschneidung); im Schraubweg hingegen kollisionsfrei laut Montagepruefung.
+Alle digitalen Gewindepruefungen bestanden.
