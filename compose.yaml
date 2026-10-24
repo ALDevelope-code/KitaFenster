@@ -1,6 +1,6 @@
 services:
   verwaltung:
-    image: "${KITAFENSTER_IMAGE:-ghcr.io/aldevelope-code/kitafenster}:${KITAFENSTER_VERSION:-0.2.1}"
+    image: "${KITAFENSTER_IMAGE:-ghcr.io/aldevelope-code/kitafenster}:${KITAFENSTER_VERSION:-0.2.2}"
     user: "${NAS_UID:-10001}:${NAS_GID:-10001}"
     group_add:
       - "${NAS_READ_GID:-${NAS_GID:-10001}}"

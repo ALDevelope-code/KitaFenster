@@ -42,6 +42,7 @@ Automatisch aktualisiert werden:
 | Datei | Angabe |
 |---|---|
 | `pyproject.toml` | `version` unter `[project]` |
+| `README.md` | Angezeigte Projektversion im Quellcode |
 | `.env.example` | `KITAFENSTER_VERSION` |
 | `compose.yaml` | Fallback in `${KITAFENSTER_VERSION:-…}` |
 | `Dockerfile` | `ARG APP_VERSION` |

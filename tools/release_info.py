@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VERSION = re.compile(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)")
 VERSION_FIELDS = {
     "pyproject.toml": r'^version[ \t]*=[ \t]*"(?P<version>[^"\r\n]+)"',
+    "README.md": r"^\*\*Projektversion im Quellcode: (?P<version>[^.\r\n]+\.[^.\r\n]+\.[^.\r\n]+)\.\*\*",
     ".env.example": r"^KITAFENSTER_VERSION=(?P<version>[^ \t\r\n#]+)",
     "compose.yaml": r"\$\{KITAFENSTER_VERSION:-(?P<version>[^}\r\n]+)\}",
     "Dockerfile": r"^ARG APP_VERSION=(?P<version>[^ \t\r\n#]+)",

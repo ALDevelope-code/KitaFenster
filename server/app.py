@@ -185,7 +185,7 @@ def create_app(config=None):
 
     @app.get("/api/health")
     def health():
-        return {"status": "ok", "version": "0.2.1"}
+        return {"status": "ok", "version": "0.2.2"}
 
     @app.get("/api/license")
     def license_text():
