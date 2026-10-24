@@ -6,7 +6,6 @@ import secrets
 import threading
 import time
 from contextlib import asynccontextmanager
-from ipaddress import ip_address
 from pathlib import Path
 from typing import Literal
 
@@ -186,7 +185,7 @@ def create_app(config=None):
 
     @app.get("/api/health")
     def health():
-        return {"status": "ok", "version": "0.2.4"}
+        return {"status": "ok", "version": "0.2.5"}
 
     @app.get("/api/license")
     def license_text():
@@ -648,14 +647,10 @@ def create_app(config=None):
         return {"token": token, "device_id": row["device_id"]}
 
     @app.post("/api/device/sync")
-    def sync(body: Heartbeat, request: Request, device=Depends(device_auth)):
-        changes = {"last_seen": utcnow(), "reported": body.model_dump(exclude={"ack"})}
-        if request.client:
-            try:
-                changes["last_ip"] = str(ip_address(request.client.host))
-            except ValueError:
-                pass
-        updated = db.mutate("device", device["id"], changes)
+    def sync(body: Heartbeat, device=Depends(device_auth)):
+        updated = db.mutate(
+            "device", device["id"], {"last_seen": utcnow(), "reported": body.model_dump(exclude={"ack"})}
+        )
         with db.connect() as connection:
             for ack in body.ack:
                 connection.execute(
@@ -678,6 +673,7 @@ def create_app(config=None):
             "nas_error": snapshot.get("error", ""),
             "motion_diagnostics": diagnostics.snapshot(device["id"])["active"],
             "storage_reporting": True,
+            "ip_reporting": True,
         }
 
     @app.post("/api/device/motion")

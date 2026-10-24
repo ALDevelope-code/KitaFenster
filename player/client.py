@@ -1,4 +1,5 @@
 import json
+import socket
 import ssl
 import threading
 import time
@@ -8,6 +9,32 @@ from urllib.parse import urlsplit
 from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_opener
 
 from player.cache import Cache, atomic_json
+
+
+def local_ip_for_server(url):
+    """Return the player's source address on the route toward its server."""
+    parsed = urlsplit(url)
+    if not parsed.hostname:
+        return None
+    try:
+        port = parsed.port or (443 if parsed.scheme == "https" else 80)
+    except ValueError:
+        return None
+    for family in (socket.AF_INET, socket.AF_INET6):
+        try:
+            addresses = socket.getaddrinfo(parsed.hostname, port, family, socket.SOCK_DGRAM)
+        except OSError:
+            continue
+        for _, kind, protocol, _, address in addresses:
+            try:
+                with socket.socket(family, kind, protocol) as connection:
+                    connection.connect(address)
+                    local = connection.getsockname()[0]
+                    if local not in ("0.0.0.0", "::"):
+                        return local
+            except OSError:
+                continue
+    return None
 
 
 class NoRedirect(HTTPRedirectHandler):
@@ -61,6 +88,7 @@ class SyncWorker:
     def __init__(self, config, api=None):
         self.cache = Cache(config["cache_dir"], config.get("cache_limit_mb", 1024) * 1024 * 1024)
         self.api = api or API(config["server_url"], config["token"], config.get("ca_file"))
+        self.server_url = config.get("server_url", getattr(self.api, "url", None))
         self.manifest = self.cache.load()
         self.verify_cache = True
         self.lock = threading.Lock()
@@ -85,6 +113,7 @@ class SyncWorker:
         self.motion_sample_at = 0
         self.diagnostics_active = False
         self.storage_reporting = False
+        self.ip_reporting = False
 
     def snapshot(self):
         with self.lock:
@@ -121,10 +150,15 @@ class SyncWorker:
             status["error"] = "; ".join(filter(None, (self.player_error, status["error"])))[:160]
         if self.storage_reporting:
             status["storage"] = self.cache.storage()
+        if self.ip_reporting and self.server_url:
+            local_ip = local_ip_for_server(self.server_url)
+            if local_ip:
+                status["local_ip"] = local_ip
         response = self.api.sync(status)
         # Old servers do not advertise this endpoint. Keep the legacy heartbeat unchanged.
         self.diagnostics_active = response.get("motion_diagnostics", False)
         self.storage_reporting = response.get("storage_reporting", False)
+        self.ip_reporting = response.get("ip_reporting", False)
         manifest = response["manifest"]
         old = self.snapshot()
         if old and self.access_revoked(old, manifest):

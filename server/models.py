@@ -1,4 +1,5 @@
 from datetime import datetime
+from ipaddress import ip_address
 from typing import Literal
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
@@ -256,11 +257,17 @@ class Heartbeat(Model):
     error: str = Field(default="", max_length=160)
     ack: list[str] = Field(default_factory=list, max_length=100)
     storage: StorageStatus | None = None
+    local_ip: str | None = None
 
     @field_validator("last_sync")
     @classmethod
     def valid_last_sync(cls, value):
         return timestamp(value)
+
+    @field_validator("local_ip")
+    @classmethod
+    def valid_local_ip(cls, value):
+        return str(ip_address(value)) if value is not None else None
 
 
 class MotionEvent(Model):

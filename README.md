@@ -4,7 +4,7 @@
 [![Release](https://img.shields.io/github/v/release/ALDevelope-code/KitaFenster)](https://github.com/ALDevelope-code/KitaFenster/releases/latest)
 [![Lizenz: AGPL-3.0-only](https://img.shields.io/badge/Lizenz-AGPL--3.0--only-blue)](LICENSE)
 
-**Projektversion im Quellcode: 0.2.4.** Das Release-Badge zeigt die zuletzt
+**Projektversion im Quellcode: 0.2.5.** Das Release-Badge zeigt die zuletzt
 veröffentlichte Version.
 
 **Der lokale digitale Bilderrahmen für Kitas.**
