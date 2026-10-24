@@ -1,5 +1,5 @@
 FROM python:3.11-slim
-ARG APP_VERSION=0.2.3
+ARG APP_VERSION=0.2.4
 ARG SOURCE_URL=https://github.com/ALDevelope-code/KitaFenster
 ARG REVISION=local
 LABEL org.opencontainers.image.title="KitaFenster" \
