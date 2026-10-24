@@ -9,7 +9,7 @@
 include <metric_threads.scad>;
 
 /* [Ansicht] */
-part = "assembly"; // [assembly,front,rear,front_key,rear_key,pressure_cap,pressure_m4,monitor_dummy,pi_dummy,pir_dummy,usb_dummy,power_dummy,layout]
+part = "assembly"; // [assembly,front,rear,front_key,rear_key,pressure_cap,monitor_dummy,pi_dummy,pir_dummy,usb_dummy,power_dummy,layout]
 seam_features = true; // false: ungeteilte Schalen ohne Klebekeiltaschen
 half = -1; // [-1:Gesamt,0:links,1:rechts]
 exploded = 0; // [0:1:60]
@@ -46,9 +46,6 @@ pressure_thread_length = 12;
 pressure_male_radial = -0.05;
 pressure_female_radial = 0.20; // radial zusammen 0.25 mm Nennspiel
 pressure_blind_floor = 1.8;
-pressure_m4_pitch = 0.7;
-pressure_m4_length = 15;
-pressure_m4_radial = -0.025;
 
 /* [Gehaeuse] */
 left_margin = 50; // vorlaeufig: HDMI-Stecker UND Biegung innerhalb des Kabelraums
@@ -476,10 +473,6 @@ module pir_mount_holes() {
             cylinder(d=pir_shaft_clearance,h=pir_shaft_depth+eps);
     }
 }
-module pressure_m4() {
-    threaded_pressure_plate(4,pressure_m4_pitch,pressure_m4_length,pressure_m4_radial);
-}
-
 module pressure_posts() {
     // Druckteller/Schraubenposition bleiben erhalten; Fuss wird zum Deckel breiter.
     for(p=retainer_points) hull() {
@@ -644,7 +637,6 @@ else if(part=="rear") half_cut(half) rear();
 else if(part=="front_key") glue_key(true);
 else if(part=="rear_key") glue_key(false);
 else if(part=="pressure_cap") pressure_cap();
-else if(part=="pressure_m4") pressure_m4();
 else if(part=="monitor_dummy") monitor_dummy();
 else if(part=="pi_dummy") pi_dummy();
 else if(part=="pir_dummy") pir_dummy();

@@ -1,3 +1,0 @@
-Native SketchUp-C-API-Pruefung: M4. Laengeneinheit mm. Geometriefaktor 10000.
-Vor Speichern: Andruckteller_M4: Volumen 842.072 mm3; geschlossen; Masse und Lage stimmen; 12038 Flaechen.
-Nach erneutem Laden: Andruckteller_M4: Volumen 842.072 mm3; geschlossen; Masse und Lage stimmen; 12038 Flaechen.

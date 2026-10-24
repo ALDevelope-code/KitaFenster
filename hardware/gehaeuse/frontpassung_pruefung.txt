@@ -1,6 +1,0 @@
-Front-Taschen aus den exportierten Dateien.
-Tasche Y=3.5, Z=10: Druck-Z-Breitenzugabe 0.4 mm; Schnittgrenzen in Druck-Z 5.8865 / 14.1135 mm.
-Tasche Y=3.5, Z=25: Druck-Z-Breitenzugabe 0.4 mm; Schnittgrenzen in Druck-Z 20.8865 / 29.1135 mm.
-Tasche Y=244.7, Z=10: Druck-Z-Breitenzugabe 0.4 mm; Schnittgrenzen in Druck-Z 5.8865 / 14.1135 mm.
-Tasche Y=244.7, Z=25: Druck-Z-Breitenzugabe 0.4 mm; Schnittgrenzen in Druck-Z 20.8865 / 29.1135 mm.
-Alle digitalen Frontpassungspruefungen bestanden.

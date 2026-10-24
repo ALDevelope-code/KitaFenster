@@ -3156,18 +3156,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 13.6408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 14.0492
-      vertex 15.4059 155.3752 13.6408
-      vertex 15.406 155.3752 13.6408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 14.0492
       vertex 15.406 155.3752 13.6408
       vertex 15.4277 155.3859 13.6397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 14.0492
+      vertex 15.4059 155.3752 13.6408
+      vertex 15.406 155.3752 13.6408
     endloop
   endfacet
   facet normal 0.655872284 -0.754871874 0
@@ -4264,9 +4264,9 @@ solid gehaeuse
   endfacet
   facet normal 0.341042063 -0.352487861 -0.87146005
     outer loop
+      vertex 14.1347 154.2645 13.7334
       vertex 14.1187 154.2463 13.7345
       vertex 13.4746 154.7406 13.2825
-      vertex 14.1347 154.2645 13.7334
     endloop
   endfacet
   facet normal 0.375985555 -0.308923916 -0.873613689
@@ -4689,18 +4689,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 12.1408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 12.5492
-      vertex 15.4059 155.3752 12.1408
-      vertex 15.406 155.3752 12.1408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 12.5492
       vertex 15.406 155.3752 12.1408
       vertex 15.4277 155.3859 12.1397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 12.5492
+      vertex 15.4059 155.3752 12.1408
+      vertex 15.406 155.3752 12.1408
     endloop
   endfacet
   facet normal 0.655872284 -0.754871874 0
@@ -7923,18 +7923,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 14.5805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 14.5816
-      vertex 16.4643 147.3364 14.6117
-      vertex 16.4413 147.3442 14.2022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 14.6117
       vertex 16.488 147.3317 14.6128
       vertex 16.4643 147.3364 14.2033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 14.5816
+      vertex 16.4643 147.3364 14.6117
+      vertex 16.4413 147.3442 14.2022
     endloop
   endfacet
   facet normal 0.442246941 0.896893329 0
@@ -8086,9 +8086,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 14.2022
       vertex 16.4643 147.3364 14.2033
       vertex 16.2541 146.5522 13.7512
+      vertex 16.4413 147.3442 14.2022
     endloop
   endfacet
   facet normal 0.141358385 0.46572913 -0.87356407
@@ -10009,18 +10009,18 @@ solid gehaeuse
       vertex 17.0272 147.2244 13.143
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 13.0816
-      vertex 16.4643 147.3364 13.1117
-      vertex 16.4413 147.3442 12.7022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 13.1117
       vertex 16.488 147.3317 13.1128
       vertex 16.4643 147.3364 12.7033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 13.0816
+      vertex 16.4643 147.3364 13.1117
+      vertex 16.4413 147.3442 12.7022
     endloop
   endfacet
   facet normal 0.195160757 0.980771247 0.000201152472
@@ -10725,9 +10725,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 12.7022
       vertex 16.4643 147.3364 12.7033
       vertex 16.2541 146.5522 12.2512
+      vertex 16.4413 147.3442 12.7022
     endloop
   endfacet
   facet normal 0.194981471 0.450134839 -0.871413135
@@ -13077,9 +13077,9 @@ solid gehaeuse
   endfacet
   facet normal 0.341042063 -0.352487861 -0.87146005
     outer loop
+      vertex 14.1347 154.2645 12.2334
       vertex 14.1187 154.2463 12.2345
       vertex 13.4746 154.7406 11.7825
-      vertex 14.1347 154.2645 12.2334
     endloop
   endfacet
   facet normal 0.375985555 -0.308923916 -0.873613689
@@ -13509,18 +13509,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 10.6408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 11.0492
-      vertex 15.4059 155.3752 10.6408
-      vertex 15.406 155.3752 10.6408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 11.0492
       vertex 15.406 155.3752 10.6408
       vertex 15.4277 155.3859 10.6397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 11.0492
+      vertex 15.4059 155.3752 10.6408
+      vertex 15.406 155.3752 10.6408
     endloop
   endfacet
   facet normal 0.655872284 -0.754871874 0
@@ -14568,9 +14568,9 @@ solid gehaeuse
   endfacet
   facet normal 0.341042063 -0.352487861 -0.87146005
     outer loop
+      vertex 14.1347 154.2645 10.7334
       vertex 14.1187 154.2463 10.7345
       vertex 13.4746 154.7406 10.2825
-      vertex 14.1347 154.2645 10.7334
     endloop
   endfacet
   facet normal 0.375985555 -0.308923916 -0.873613689
@@ -15000,18 +15000,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 9.1408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 9.5492
-      vertex 15.4059 155.3752 9.1408
-      vertex 15.406 155.3752 9.1408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 9.5492
       vertex 15.406 155.3752 9.1408
       vertex 15.4277 155.3859 9.1397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 9.5492
+      vertex 15.4059 155.3752 9.1408
+      vertex 15.406 155.3752 9.1408
     endloop
   endfacet
   facet normal 0.655872284 -0.754871874 0
@@ -17632,18 +17632,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 11.5805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 11.5816
-      vertex 16.4643 147.3364 11.6117
-      vertex 16.4413 147.3442 11.2022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 11.6117
       vertex 16.488 147.3317 11.6128
       vertex 16.4643 147.3364 11.2033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 11.5816
+      vertex 16.4643 147.3364 11.6117
+      vertex 16.4413 147.3442 11.2022
     endloop
   endfacet
   facet normal 0.195160757 0.980771247 0.000201152472
@@ -18327,9 +18327,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 11.2022
       vertex 16.4643 147.3364 11.2033
       vertex 16.2541 146.5522 10.7512
+      vertex 16.4413 147.3442 11.2022
     endloop
   endfacet
   facet normal 0.194981471 0.450134839 -0.871413135
@@ -20264,18 +20264,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 10.0805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 16.4643 147.3364 10.1117
-      vertex 16.4413 147.3442 9.7022
-      vertex 15.9437 147.5131 10.0816
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 10.1117
       vertex 16.488 147.3317 10.1128
       vertex 16.4643 147.3364 9.7033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 16.4643 147.3364 10.1117
+      vertex 16.4413 147.3442 9.7022
+      vertex 15.9437 147.5131 10.0816
     endloop
   endfacet
   facet normal 0.0654791503 0.997853937 2.92328776e-05
@@ -20868,9 +20868,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 9.7022
       vertex 16.4643 147.3364 9.7033
       vertex 16.2541 146.5522 9.2512
+      vertex 16.4413 147.3442 9.7022
     endloop
   endfacet
   facet normal 0.141358385 0.46572913 -0.87356407
@@ -21358,9 +21358,9 @@ solid gehaeuse
   endfacet
   facet normal 0.341042063 -0.352487861 -0.87146005
     outer loop
+      vertex 14.1347 154.2645 9.2334
       vertex 14.1187 154.2463 9.2345
       vertex 13.4746 154.7406 8.7825
-      vertex 14.1347 154.2645 9.2334
     endloop
   endfacet
   facet normal 0.375985555 -0.308923916 -0.873613689
@@ -21797,18 +21797,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 7.6408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 8.0492
-      vertex 15.4059 155.3752 7.6408
-      vertex 15.406 155.3752 7.6408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 8.0492
       vertex 15.406 155.3752 7.6408
       vertex 15.4277 155.3859 7.6397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 8.0492
+      vertex 15.4059 155.3752 7.6408
+      vertex 15.406 155.3752 7.6408
     endloop
   endfacet
   facet normal 0 -0.102264761 -0.994757216
@@ -23295,18 +23295,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 6.1408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 6.5492
-      vertex 15.4059 155.3752 6.1408
-      vertex 15.406 155.3752 6.1408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 6.5492
       vertex 15.406 155.3752 6.1408
       vertex 15.4277 155.3859 6.1397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 6.5492
+      vertex 15.4059 155.3752 6.1408
+      vertex 15.406 155.3752 6.1408
     endloop
   endfacet
   facet normal 0 -0.102264761 -0.994757216
@@ -24242,9 +24242,9 @@ solid gehaeuse
   endfacet
   facet normal 0.395173256 0.290973732 -0.87130499
     outer loop
+      vertex 14.4812 148.4904 6.5772
       vertex 14.4971 148.4721 6.5783
       vertex 13.923 147.898 6.1262
-      vertex 14.4812 148.4904 6.5772
     endloop
   endfacet
   facet normal 0.352415997 0.341098627 -0.871466977
@@ -25927,18 +25927,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 8.5805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 8.5816
-      vertex 16.4643 147.3364 8.6117
-      vertex 16.4413 147.3442 8.2022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 8.6117
       vertex 16.488 147.3317 8.6128
       vertex 16.4643 147.3364 8.2033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 8.5816
+      vertex 16.4643 147.3364 8.6117
+      vertex 16.4413 147.3442 8.2022
     endloop
   endfacet
   facet normal 0.195160757 0.980771247 0.000201152472
@@ -26545,9 +26545,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 8.2022
       vertex 16.4643 147.3364 8.2033
       vertex 16.2541 146.5522 7.7512
+      vertex 16.4413 147.3442 8.2022
     endloop
   endfacet
   facet normal 0.141358385 0.46572913 -0.87356407
@@ -28552,18 +28552,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 7.0805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 7.0816
-      vertex 16.4643 147.3364 7.1117
-      vertex 16.4413 147.3442 6.7022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 7.1117
       vertex 16.488 147.3317 7.1128
       vertex 16.4643 147.3364 6.7033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 7.0816
+      vertex 16.4643 147.3364 7.1117
+      vertex 16.4413 147.3442 6.7022
     endloop
   endfacet
   facet normal 0.321164469 0.947023434 0
@@ -29163,9 +29163,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 6.7022
       vertex 16.4643 147.3364 6.7033
       vertex 16.2541 146.5522 6.2512
+      vertex 16.4413 147.3442 6.7022
     endloop
   endfacet
   facet normal 0.0795091082 0.480115261 -0.873594664
@@ -30092,18 +30092,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 4.6408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 5.0492
-      vertex 15.4059 155.3752 4.6408
-      vertex 15.406 155.3752 4.6408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 5.0492
       vertex 15.406 155.3752 4.6408
       vertex 15.4277 155.3859 4.6397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 5.0492
+      vertex 15.4059 155.3752 4.6408
+      vertex 15.406 155.3752 4.6408
     endloop
   endfacet
   facet normal 0.751040873 -0.660255713 0
@@ -31081,9 +31081,9 @@ solid gehaeuse
   endfacet
   facet normal 0.395173256 0.290973732 -0.87130499
     outer loop
+      vertex 14.4812 148.4904 5.0772
       vertex 14.4971 148.4721 5.0783
       vertex 13.923 147.898 4.6262
-      vertex 14.4812 148.4904 5.0772
     endloop
   endfacet
   facet normal 0.35524628 0.332683222 -0.873568517
@@ -31625,18 +31625,18 @@ solid gehaeuse
       vertex 15.4059 155.3752 3.1408
     endloop
   endfacet
-  facet normal 0 -1 -0
-    outer loop
-      vertex 15.406 155.3752 3.5492
-      vertex 15.4059 155.3752 3.1408
-      vertex 15.406 155.3752 3.1408
-    endloop
-  endfacet
   facet normal 0.442246941 -0.896893329 0
     outer loop
       vertex 15.406 155.3752 3.5492
       vertex 15.406 155.3752 3.1408
       vertex 15.4277 155.3859 3.1397
+    endloop
+  endfacet
+  facet normal 0 -1 -0
+    outer loop
+      vertex 15.406 155.3752 3.5492
+      vertex 15.4059 155.3752 3.1408
+      vertex 15.406 155.3752 3.1408
     endloop
   endfacet
   facet normal 0.655872284 -0.754871874 0
@@ -32586,9 +32586,9 @@ solid gehaeuse
   endfacet
   facet normal 0.395112837 0.29091848 -0.871350839
     outer loop
+      vertex 14.4812 148.4904 3.5772
       vertex 14.4971 148.4721 3.5783
       vertex 13.923 147.898 3.1263
-      vertex 14.4812 148.4904 3.5772
     endloop
   endfacet
   facet normal 0.393966151 0.292094654 -0.871476555
@@ -34271,18 +34271,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 5.5805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 5.5816
-      vertex 16.4643 147.3364 5.6117
-      vertex 16.4413 147.3442 5.2022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 5.6117
       vertex 16.488 147.3317 5.6128
       vertex 16.4643 147.3364 5.2033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 5.5816
+      vertex 16.4643 147.3364 5.6117
+      vertex 16.4413 147.3442 5.2022
     endloop
   endfacet
   facet normal 0.321164469 0.947023434 0
@@ -34868,9 +34868,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194389335 0.450301189 -0.87145948
     outer loop
-      vertex 16.4413 147.3442 5.2022
       vertex 16.4643 147.3364 5.2033
       vertex 16.2541 146.5522 4.7512
+      vertex 16.4413 147.3442 5.2022
     endloop
   endfacet
   facet normal 0.201085124 0.44313444 -0.873611264
@@ -36917,18 +36917,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 4.0805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 4.0816
-      vertex 16.4643 147.3364 4.1117
-      vertex 16.4413 147.3442 3.7022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 4.1117
       vertex 16.488 147.3317 4.1128
       vertex 16.4643 147.3364 3.7033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 4.0816
+      vertex 16.4643 147.3364 4.1117
+      vertex 16.4413 147.3442 3.7022
     endloop
   endfacet
   facet normal 0.321407822 0.94694087 -1.5237083e-05
@@ -37507,9 +37507,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194365009 0.450222996 -0.871505305
     outer loop
-      vertex 16.4413 147.3442 3.7022
       vertex 16.4643 147.3364 3.7033
       vertex 16.2541 146.5522 3.2513
+      vertex 16.4413 147.3442 3.7022
     endloop
   endfacet
   facet normal 0.251710973 0.420886768 -0.871490628
@@ -40118,9 +40118,9 @@ solid gehaeuse
   endfacet
   facet normal 0.395173068 0.29097356 -0.871305132
     outer loop
+      vertex 14.4812 148.4904 2.0772
       vertex 14.4971 148.4721 2.0783
       vertex 14.1437 148.1187 1.8
-      vertex 14.4812 148.4904 2.0772
     endloop
   endfacet
   facet normal 0.352458036 0.341006347 -0.87148609
@@ -42405,18 +42405,18 @@ solid gehaeuse
       vertex 15.9207 147.5209 2.5805
     endloop
   endfacet
-  facet normal 0.321407819 0.946940871 -1.52406512e-05
-    outer loop
-      vertex 15.9437 147.5131 2.5816
-      vertex 16.4643 147.3364 2.6117
-      vertex 16.4413 147.3442 2.2022
-    endloop
-  endfacet
   facet normal 0.194524027 0.980897754 0
     outer loop
       vertex 16.4643 147.3364 2.6117
       vertex 16.488 147.3317 2.6128
       vertex 16.4643 147.3364 2.2033
+    endloop
+  endfacet
+  facet normal 0.321407819 0.946940871 -1.52406512e-05
+    outer loop
+      vertex 15.9437 147.5131 2.5816
+      vertex 16.4643 147.3364 2.6117
+      vertex 16.4413 147.3442 2.2022
     endloop
   endfacet
   facet normal 0.442246941 0.896893329 0
@@ -43065,9 +43065,9 @@ solid gehaeuse
   endfacet
   facet normal 0.194383358 0.450281976 -0.871470741
     outer loop
-      vertex 16.4413 147.3442 2.2022
       vertex 16.4643 147.3364 2.2033
       vertex 16.2768 146.6368 1.8
+      vertex 16.4413 147.3442 2.2022
     endloop
   endfacet
   facet normal 0.252112936 0.420739897 -0.871445355
@@ -45268,18 +45268,18 @@ solid gehaeuse
       vertex 199 199.7894 24.4
     endloop
   endfacet
-  facet normal -0.660196403 0.75109301 0
-    outer loop
-      vertex 199.174 199.9056 24.4
-      vertex 199.331 200.0436 24.4
-      vertex 199.331 200.0436 21.2
-    endloop
-  endfacet
   facet normal -0.75192528 0.65924834 0
     outer loop
       vertex 199.469 200.201 24.4
       vertex 199.331 200.0436 21.2
       vertex 199.331 200.0436 24.4
+    endloop
+  endfacet
+  facet normal -0.660196403 0.75109301 0
+    outer loop
+      vertex 199.174 199.9056 24.4
+      vertex 199.331 200.0436 24.4
+      vertex 199.331 200.0436 21.2
     endloop
   endfacet
   facet normal 0.195196007 0.980764252 0
@@ -45303,18 +45303,18 @@ solid gehaeuse
       vertex 198.409 199.5887 21.2
     endloop
   endfacet
-  facet normal -0.195196007 0.980764252 0
-    outer loop
-      vertex 198.409 199.5887 24.4
-      vertex 198.614 199.6295 24.4
-      vertex 198.614 199.6295 21.2
-    endloop
-  endfacet
   facet normal -0.321817005 0.946801888 0
     outer loop
       vertex 198.614 199.6295 24.4
       vertex 198.812 199.6968 24.4
       vertex 198.812 199.6968 21.2
+    endloop
+  endfacet
+  facet normal -0.195196007 0.980764252 0
+    outer loop
+      vertex 198.409 199.5887 24.4
+      vertex 198.614 199.6295 24.4
+      vertex 198.614 199.6295 21.2
     endloop
   endfacet
   facet normal 0.321688399 -0.946845592 0
@@ -45331,18 +45331,18 @@ solid gehaeuse
       vertex 197.226 202.44437 21.2
     endloop
   endfacet
-  facet normal 0.441746072 -0.897140127 0
-    outer loop
-      vertex 197.588 202.65321 24.4
-      vertex 197.4 202.56064 21.2
-      vertex 197.588 202.65321 21.2
-    endloop
-  endfacet
   facet normal 0.555593084 -0.831454344 0
     outer loop
       vertex 197.4 202.56064 24.4
       vertex 197.226 202.44437 21.2
       vertex 197.4 202.56064 21.2
+    endloop
+  endfacet
+  facet normal 0.441746072 -0.897140127 0
+    outer loop
+      vertex 197.588 202.65321 24.4
+      vertex 197.4 202.56064 21.2
+      vertex 197.588 202.65321 21.2
     endloop
   endfacet
   facet normal 0.195334059 -0.980736767 0
@@ -45366,18 +45366,18 @@ solid gehaeuse
       vertex 198.409 202.76131 21.2
     endloop
   endfacet
-  facet normal -0.321688399 -0.946845592 -0
-    outer loop
-      vertex 198.812 202.65321 24.4
-      vertex 198.614 202.72048 21.2
-      vertex 198.812 202.65321 21.2
-    endloop
-  endfacet
   facet normal -0.195334059 -0.980736767 -0
     outer loop
       vertex 198.614 202.72048 24.4
       vertex 198.409 202.76131 21.2
       vertex 198.614 202.72048 21.2
+    endloop
+  endfacet
+  facet normal -0.321688399 -0.946845592 -0
+    outer loop
+      vertex 198.812 202.65321 24.4
+      vertex 198.614 202.72048 21.2
+      vertex 198.812 202.65321 21.2
     endloop
   endfacet
   facet normal -0.441746072 -0.897140127 -0
@@ -45394,18 +45394,18 @@ solid gehaeuse
       vertex 199.174 202.44437 21.2
     endloop
   endfacet
-  facet normal -0.751862984 -0.659319386 -0
-    outer loop
-      vertex 199.331 202.30637 24.4
-      vertex 199.331 202.30637 21.2
-      vertex 199.469 202.149 21.2
-    endloop
-  endfacet
   facet normal -0.660196403 -0.75109301 -0
     outer loop
       vertex 199.331 202.30637 24.4
       vertex 199.174 202.44437 21.2
       vertex 199.331 202.30637 21.2
+    endloop
+  endfacet
+  facet normal -0.751862984 -0.659319386 -0
+    outer loop
+      vertex 199.331 202.30637 24.4
+      vertex 199.331 202.30637 21.2
+      vertex 199.469 202.149 21.2
     endloop
   endfacet
   facet normal 0.897939258 -0.440119402 0
@@ -45429,18 +45429,18 @@ solid gehaeuse
       vertex 196.655 201.5891 21.2
     endloop
   endfacet
-  facet normal 0.829842569 -0.55799759 0
-    outer loop
-      vertex 196.814 201.975 24.4
-      vertex 196.814 201.975 21.2
-      vertex 196.931 202.149 21.2
-    endloop
-  endfacet
   facet normal 0.751862984 -0.659319386 0
     outer loop
       vertex 196.931 202.149 24.4
       vertex 196.931 202.149 21.2
       vertex 197.069 202.30637 21.2
+    endloop
+  endfacet
+  facet normal 0.829842569 -0.55799759 0
+    outer loop
+      vertex 196.814 201.975 24.4
+      vertex 196.814 201.975 21.2
+      vertex 196.931 202.149 21.2
     endloop
   endfacet
   facet normal 0.997759712 -0.0668995976 0
@@ -45625,18 +45625,18 @@ solid gehaeuse
       vertex 197.991 199.5887 21.2
     endloop
   endfacet
-  facet normal -0.195196007 0.980764252 0
-    outer loop
-      vertex 198.409 199.5887 24.4
-      vertex 198.614 199.6295 21.2
-      vertex 198.409 199.5887 21.2
-    endloop
-  endfacet
   facet normal -0.0654098622 0.997858482 0
     outer loop
       vertex 198.2 199.575 24.4
       vertex 198.409 199.5887 21.2
       vertex 198.2 199.575 21.2
+    endloop
+  endfacet
+  facet normal -0.195196007 0.980764252 0
+    outer loop
+      vertex 198.409 199.5887 24.4
+      vertex 198.614 199.6295 21.2
+      vertex 198.409 199.5887 21.2
     endloop
   endfacet
   facet normal -0.321817005 0.946801888 0
@@ -45795,9 +45795,9 @@ solid gehaeuse
   endfacet
   facet normal 0 0 1
     outer loop
+      vertex 199.174 202.44437 21.2
       vertex 199 202.56064 21.2
       vertex 198.775 202.1709 21.2
-      vertex 199.174 202.44437 21.2
     endloop
   endfacet
   facet normal 0 0 1
@@ -46605,18 +46605,18 @@ solid gehaeuse
       vertex 198.2 200.025 20.2
     endloop
   endfacet
-  facet normal -0.0651943423 0.997872586 0
-    outer loop
-      vertex 198.2 200.025 21.2
-      vertex 198.35 200.0348 21.2
-      vertex 198.35 200.0348 20.2
-    endloop
-  endfacet
   facet normal -0.194841496 0.980834742 0
     outer loop
       vertex 198.35 200.0348 21.2
       vertex 198.498 200.0642 21.2
       vertex 198.498 200.0642 20.2
+    endloop
+  endfacet
+  facet normal -0.0651943423 0.997872586 0
+    outer loop
+      vertex 198.2 200.025 21.2
+      vertex 198.35 200.0348 21.2
+      vertex 198.35 200.0348 20.2
     endloop
   endfacet
   facet normal -0.442424236 0.896805885 0
@@ -48201,18 +48201,18 @@ solid gehaeuse
       vertex 198.2 174.775 24.4
     endloop
   endfacet
-  facet normal -0.195196007 -0.980764252 -0
-    outer loop
-      vertex 198.409 174.7613 24.4
-      vertex 198.409 174.7613 21.2
-      vertex 198.614 174.7205 24.4
-    endloop
-  endfacet
   facet normal -0.0654098622 -0.997858482 -0
     outer loop
       vertex 198.2 174.775 24.4
       vertex 198.2 174.775 21.2
       vertex 198.409 174.7613 24.4
+    endloop
+  endfacet
+  facet normal -0.195196007 -0.980764252 -0
+    outer loop
+      vertex 198.409 174.7613 24.4
+      vertex 198.409 174.7613 21.2
+      vertex 198.614 174.7205 24.4
     endloop
   endfacet
   facet normal -0.321817005 -0.946801888 -0
@@ -48320,18 +48320,18 @@ solid gehaeuse
       vertex 197.786 174.7205 21.2
     endloop
   endfacet
-  facet normal 0.555361778 -0.831608859 0
-    outer loop
-      vertex 197.4 174.5606 24.4
-      vertex 197.226 174.4444 21.2
-      vertex 197.4 174.5606 21.2
-    endloop
-  endfacet
   facet normal 0.441861286 -0.897083388 0
     outer loop
       vertex 197.588 174.6532 24.4
       vertex 197.4 174.5606 21.2
       vertex 197.588 174.6532 21.2
+    endloop
+  endfacet
+  facet normal 0.555361778 -0.831608859 0
+    outer loop
+      vertex 197.4 174.5606 24.4
+      vertex 197.226 174.4444 21.2
+      vertex 197.4 174.5606 21.2
     endloop
   endfacet
   facet normal 0.660196403 -0.75109301 0
@@ -48859,18 +48859,18 @@ solid gehaeuse
       vertex 199.469 172.201 24.4
     endloop
   endfacet
-  facet normal -0.75192528 0.65924834 0
-    outer loop
-      vertex 199.469 172.201 24.4
-      vertex 199.331 172.0436 21.2
-      vertex 199.331 172.0436 24.4
-    endloop
-  endfacet
   facet normal -0.660196403 0.75109301 0
     outer loop
       vertex 199.174 171.9056 24.4
       vertex 199.331 172.0436 24.4
       vertex 199.331 172.0436 21.2
+    endloop
+  endfacet
+  facet normal -0.75192528 0.65924834 0
+    outer loop
+      vertex 199.469 172.201 24.4
+      vertex 199.331 172.0436 21.2
+      vertex 199.331 172.0436 24.4
     endloop
   endfacet
   facet normal -0.555361778 0.831608859 0
@@ -48943,18 +48943,18 @@ solid gehaeuse
       vertex 197.991 171.5887 21.2
     endloop
   endfacet
-  facet normal -0.0654098622 0.997858482 0
-    outer loop
-      vertex 198.2 171.575 24.4
-      vertex 198.409 171.5887 21.2
-      vertex 198.2 171.575 21.2
-    endloop
-  endfacet
   facet normal -0.195196007 0.980764252 0
     outer loop
       vertex 198.409 171.5887 24.4
       vertex 198.614 171.6295 21.2
       vertex 198.409 171.5887 21.2
+    endloop
+  endfacet
+  facet normal -0.0654098622 0.997858482 0
+    outer loop
+      vertex 198.2 171.575 24.4
+      vertex 198.409 171.5887 21.2
+      vertex 198.2 171.575 21.2
     endloop
   endfacet
   facet normal -0.321817005 0.946801888 0
@@ -49216,18 +49216,18 @@ solid gehaeuse
       vertex 197.625 174.1709 20.2
     endloop
   endfacet
-  facet normal 0.898255873 -0.439472851 0
-    outer loop
-      vertex 197.138 173.6151 21.2
-      vertex 197.204 173.75 20.2
-      vertex 197.204 173.75 21.2
-    endloop
-  endfacet
   facet normal 0.830207968 -0.557453792 0
     outer loop
       vertex 197.204 173.75 21.2
       vertex 197.288 173.8751 20.2
       vertex 197.288 173.8751 21.2
+    endloop
+  endfacet
+  facet normal 0.898255873 -0.439472851 0
+    outer loop
+      vertex 197.138 173.6151 21.2
+      vertex 197.204 173.75 20.2
+      vertex 197.204 173.75 21.2
     endloop
   endfacet
   facet normal 0.752453042 -0.658645899 0
@@ -49573,18 +49573,18 @@ solid gehaeuse
       vertex 198.05 174.3152 21.2
     endloop
   endfacet
-  facet normal -0.0651943423 -0.997872586 -0
-    outer loop
-      vertex 198.2 174.325 21.2
-      vertex 198.2 174.325 20.2
-      vertex 198.35 174.3152 21.2
-    endloop
-  endfacet
   facet normal 0.0651943423 -0.997872586 0
     outer loop
       vertex 198.05 174.3152 21.2
       vertex 198.05 174.3152 20.2
       vertex 198.2 174.325 21.2
+    endloop
+  endfacet
+  facet normal -0.0651943423 -0.997872586 -0
+    outer loop
+      vertex 198.2 174.325 21.2
+      vertex 198.2 174.325 20.2
+      vertex 198.35 174.3152 21.2
     endloop
   endfacet
   facet normal 0.322022256 -0.946732099 0
@@ -49615,18 +49615,18 @@ solid gehaeuse
       vertex 198.775 174.1709 21.2
     endloop
   endfacet
-  facet normal -0.659727896 -0.751504559 -0
-    outer loop
-      vertex 198.9 174.0874 21.2
-      vertex 198.9 174.0874 20.2
-      vertex 199.013 173.9882 21.2
-    endloop
-  endfacet
   facet normal -0.555467534 -0.831538224 0
     outer loop
       vertex 198.9 174.0874 21.2
       vertex 198.775 174.1709 21.2
       vertex 198.775 174.1709 20.2
+    endloop
+  endfacet
+  facet normal -0.659727896 -0.751504559 -0
+    outer loop
+      vertex 198.9 174.0874 21.2
+      vertex 198.9 174.0874 20.2
+      vertex 199.013 173.9882 21.2
     endloop
   endfacet
   facet normal -0.752453042 -0.658645899 0
@@ -49657,18 +49657,18 @@ solid gehaeuse
       vertex 199.311 173.4726 21.2
     endloop
   endfacet
-  facet normal -0.997788098 -0.06647489 0
-    outer loop
-      vertex 199.34 173.3251 21.2
-      vertex 199.35 173.175 20.2
-      vertex 199.35 173.175 21.2
-    endloop
-  endfacet
   facet normal -0.981215105 -0.192916868 0
     outer loop
       vertex 199.311 173.4726 21.2
       vertex 199.34 173.3251 20.2
       vertex 199.34 173.3251 21.2
+    endloop
+  endfacet
+  facet normal -0.997788098 -0.06647489 0
+    outer loop
+      vertex 199.34 173.3251 21.2
+      vertex 199.35 173.175 20.2
+      vertex 199.35 173.175 21.2
     endloop
   endfacet
   facet normal -0.997788098 0.06647489 0
@@ -49720,13 +49720,6 @@ solid gehaeuse
       vertex 197.5 174.0874 20.2
     endloop
   endfacet
-  facet normal 0.442424236 -0.896805885 0
-    outer loop
-      vertex 197.76 174.2375 21.2
-      vertex 197.625 174.1709 20.2
-      vertex 197.76 174.2375 20.2
-    endloop
-  endfacet
   facet normal 0.555467534 -0.831538224 0
     outer loop
       vertex 197.625 174.1709 21.2
@@ -49734,11 +49727,11 @@ solid gehaeuse
       vertex 197.625 174.1709 20.2
     endloop
   endfacet
-  facet normal 0.898255873 -0.439472851 0
+  facet normal 0.442424236 -0.896805885 0
     outer loop
-      vertex 197.138 173.6151 21.2
-      vertex 197.138 173.6151 20.2
-      vertex 197.204 173.75 20.2
+      vertex 197.76 174.2375 21.2
+      vertex 197.625 174.1709 20.2
+      vertex 197.76 174.2375 20.2
     endloop
   endfacet
   facet normal 0.830207968 -0.557453792 0
@@ -49746,6 +49739,13 @@ solid gehaeuse
       vertex 197.204 173.75 21.2
       vertex 197.204 173.75 20.2
       vertex 197.288 173.8751 20.2
+    endloop
+  endfacet
+  facet normal 0.898255873 -0.439472851 0
+    outer loop
+      vertex 197.138 173.6151 21.2
+      vertex 197.138 173.6151 20.2
+      vertex 197.204 173.75 20.2
     endloop
   endfacet
   facet normal 0.752453042 -0.658645899 0
@@ -49818,18 +49818,18 @@ solid gehaeuse
       vertex 197.387 172.3618 20.2
     endloop
   endfacet
-  facet normal 0.322022256 -0.946732099 0
-    outer loop
-      vertex 197.902 174.2858 21.2
-      vertex 197.76 174.2375 20.2
-      vertex 197.902 174.2858 20.2
-    endloop
-  endfacet
   facet normal 0.194841496 -0.980834742 0
     outer loop
       vertex 198.05 174.3152 21.2
       vertex 197.902 174.2858 20.2
       vertex 198.05 174.3152 20.2
+    endloop
+  endfacet
+  facet normal 0.322022256 -0.946732099 0
+    outer loop
+      vertex 197.902 174.2858 21.2
+      vertex 197.76 174.2375 20.2
+      vertex 197.902 174.2858 20.2
     endloop
   endfacet
   facet normal 0.0651943423 -0.997872586 0
@@ -49853,18 +49853,18 @@ solid gehaeuse
       vertex 198.35 174.3152 20.2
     endloop
   endfacet
-  facet normal -0.442424236 -0.896805885 -0
-    outer loop
-      vertex 198.775 174.1709 21.2
-      vertex 198.64 174.2375 20.2
-      vertex 198.775 174.1709 20.2
-    endloop
-  endfacet
   facet normal -0.322022256 -0.946732099 -0
     outer loop
       vertex 198.64 174.2375 21.2
       vertex 198.498 174.2858 20.2
       vertex 198.64 174.2375 20.2
+    endloop
+  endfacet
+  facet normal -0.442424236 -0.896805885 -0
+    outer loop
+      vertex 198.775 174.1709 21.2
+      vertex 198.64 174.2375 20.2
+      vertex 198.775 174.1709 20.2
     endloop
   endfacet
   facet normal -0.555467534 -0.831538224 -0
@@ -49909,18 +49909,18 @@ solid gehaeuse
       vertex 199.311 173.4726 20.2
     endloop
   endfacet
-  facet normal -0.997788098 -0.06647489 -0
-    outer loop
-      vertex 199.34 173.3251 21.2
-      vertex 199.34 173.3251 20.2
-      vertex 199.35 173.175 20.2
-    endloop
-  endfacet
   facet normal -0.981215105 -0.192916868 -0
     outer loop
       vertex 199.311 173.4726 21.2
       vertex 199.311 173.4726 20.2
       vertex 199.34 173.3251 20.2
+    endloop
+  endfacet
+  facet normal -0.997788098 -0.06647489 -0
+    outer loop
+      vertex 199.34 173.3251 21.2
+      vertex 199.34 173.3251 20.2
+      vertex 199.35 173.175 20.2
     endloop
   endfacet
   facet normal -0.997788098 0.06647489 0
@@ -49974,9 +49974,9 @@ solid gehaeuse
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 198.2 174.325 20.2
       vertex 198.05 174.3152 20.2
       vertex 198.35 174.3152 20.2
+      vertex 198.2 174.325 20.2
     endloop
   endfacet
   facet normal 0 0 1
@@ -50058,9 +50058,9 @@ solid gehaeuse
   endfacet
   facet normal 0 0 1
     outer loop
+      vertex 197.288 173.8751 20.2
       vertex 197.204 173.75 20.2
       vertex 199.196 173.75 20.2
-      vertex 197.288 173.8751 20.2
     endloop
   endfacet
   facet normal -0 0 1
@@ -50644,18 +50644,18 @@ solid gehaeuse
       vertex 199 171.7894 21.2
     endloop
   endfacet
-  facet normal 0.322022256 0.946732099 0
-    outer loop
-      vertex 197.76 172.1125 21.2
-      vertex 197.902 172.0642 21.2
-      vertex 197.902 172.0642 20.2
-    endloop
-  endfacet
   facet normal 0.194841496 0.980834742 0
     outer loop
       vertex 197.902 172.0642 21.2
       vertex 198.05 172.0348 21.2
       vertex 198.05 172.0348 20.2
+    endloop
+  endfacet
+  facet normal 0.322022256 0.946732099 0
+    outer loop
+      vertex 197.76 172.1125 21.2
+      vertex 197.902 172.0642 21.2
+      vertex 197.902 172.0642 20.2
     endloop
   endfacet
   facet normal 0.0651943423 0.997872586 0
@@ -50665,18 +50665,18 @@ solid gehaeuse
       vertex 198.2 172.025 20.2
     endloop
   endfacet
-  facet normal -0.0651943423 0.997872586 0
-    outer loop
-      vertex 198.2 172.025 21.2
-      vertex 198.35 172.0348 21.2
-      vertex 198.35 172.0348 20.2
-    endloop
-  endfacet
   facet normal -0.194841496 0.980834742 0
     outer loop
       vertex 198.498 172.0642 21.2
       vertex 198.498 172.0642 20.2
       vertex 198.35 172.0348 21.2
+    endloop
+  endfacet
+  facet normal -0.0651943423 0.997872586 0
+    outer loop
+      vertex 198.2 172.025 21.2
+      vertex 198.35 172.0348 21.2
+      vertex 198.35 172.0348 20.2
     endloop
   endfacet
   facet normal -0.442424236 0.896805885 0
@@ -50693,18 +50693,18 @@ solid gehaeuse
       vertex 198.64 172.1125 20.2
     endloop
   endfacet
-  facet normal -0.659727896 0.751504559 0
-    outer loop
-      vertex 198.9 172.2626 21.2
-      vertex 199.013 172.3618 21.2
-      vertex 199.013 172.3618 20.2
-    endloop
-  endfacet
   facet normal -0.555467534 0.831538224 0
     outer loop
       vertex 198.775 172.1791 21.2
       vertex 198.9 172.2626 21.2
       vertex 198.9 172.2626 20.2
+    endloop
+  endfacet
+  facet normal -0.659727896 0.751504559 0
+    outer loop
+      vertex 198.9 172.2626 21.2
+      vertex 199.013 172.3618 21.2
+      vertex 199.013 172.3618 20.2
     endloop
   endfacet
   facet normal 0.659727896 0.751504559 0
@@ -50728,13 +50728,6 @@ solid gehaeuse
       vertex 197.625 172.1791 20.2
     endloop
   endfacet
-  facet normal 0.322022256 0.946732099 0
-    outer loop
-      vertex 197.76 172.1125 21.2
-      vertex 197.902 172.0642 20.2
-      vertex 197.76 172.1125 20.2
-    endloop
-  endfacet
   facet normal 0.194841496 0.980834742 0
     outer loop
       vertex 197.902 172.0642 21.2
@@ -50742,11 +50735,11 @@ solid gehaeuse
       vertex 197.902 172.0642 20.2
     endloop
   endfacet
-  facet normal -0.0651943423 0.997872586 0
+  facet normal 0.322022256 0.946732099 0
     outer loop
-      vertex 198.2 172.025 21.2
-      vertex 198.35 172.0348 20.2
-      vertex 198.2 172.025 20.2
+      vertex 197.76 172.1125 21.2
+      vertex 197.902 172.0642 20.2
+      vertex 197.76 172.1125 20.2
     endloop
   endfacet
   facet normal 0.0651943423 0.997872586 0
@@ -50754,6 +50747,13 @@ solid gehaeuse
       vertex 198.05 172.0348 21.2
       vertex 198.2 172.025 20.2
       vertex 198.05 172.0348 20.2
+    endloop
+  endfacet
+  facet normal -0.0651943423 0.997872586 0
+    outer loop
+      vertex 198.2 172.025 21.2
+      vertex 198.35 172.0348 20.2
+      vertex 198.2 172.025 20.2
     endloop
   endfacet
   facet normal -0.194841496 0.980834742 0
@@ -50777,18 +50777,18 @@ solid gehaeuse
       vertex 198.498 172.0642 20.2
     endloop
   endfacet
-  facet normal -0.659727896 0.751504559 0
-    outer loop
-      vertex 198.9 172.2626 21.2
-      vertex 199.013 172.3618 20.2
-      vertex 198.9 172.2626 20.2
-    endloop
-  endfacet
   facet normal -0.555467534 0.831538224 0
     outer loop
       vertex 198.775 172.1791 21.2
       vertex 198.9 172.2626 20.2
       vertex 198.775 172.1791 20.2
+    endloop
+  endfacet
+  facet normal -0.659727896 0.751504559 0
+    outer loop
+      vertex 198.9 172.2626 21.2
+      vertex 199.013 172.3618 20.2
+      vertex 198.9 172.2626 20.2
     endloop
   endfacet
   facet normal 0 0 1
@@ -50805,11 +50805,11 @@ solid gehaeuse
       vertex 198.9 172.2626 20.2
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal 0 -0 1
     outer loop
-      vertex 197.625 172.1791 20.2
       vertex 197.76 172.1125 20.2
       vertex 198.64 172.1125 20.2
+      vertex 197.625 172.1791 20.2
     endloop
   endfacet
   facet normal -0 0 1
@@ -52394,18 +52394,18 @@ solid gehaeuse
       vertex 216.538 153.2313 18.5066
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 18.4441
-      vertex 216.8 153.7691 18.4742
-      vertex 216.813 153.7892 18.0647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 18.4753
       vertex 216.8 153.7691 18.0658
       vertex 216.8 153.7691 18.4742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 18.4441
+      vertex 216.8 153.7691 18.4742
+      vertex 216.813 153.7892 18.0647
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -53185,18 +53185,18 @@ solid gehaeuse
       vertex 216.546 149.8957 18.2845
     endloop
   endfacet
-  facet normal 0.891947377 0.452139223 0
-    outer loop
-      vertex 216.8 149.381 18.7242
-      vertex 216.8 149.381 18.3158
-      vertex 216.789 149.4027 18.3147
-    endloop
-  endfacet
   facet normal 0.831852456 0.554995993 0.000969077275
     outer loop
       vertex 216.813 149.3608 18.7253
       vertex 217.105 148.9238 18.3459
       vertex 216.8 149.381 18.3158
+    endloop
+  endfacet
+  facet normal 0.891947377 0.452139223 0
+    outer loop
+      vertex 216.8 149.381 18.7242
+      vertex 216.8 149.381 18.3158
+      vertex 216.789 149.4027 18.3147
     endloop
   endfacet
   facet normal 0.384469598 0.305010353 0.871293184
@@ -55609,9 +55609,9 @@ solid gehaeuse
   endfacet
   facet normal -0.490466488 -0.042379497 -0.870428976
     outer loop
-      vertex 224.843 152.687 19.0022
       vertex 224.839 152.7107 19.0033
       vertex 225.623 152.9209 18.5513
+      vertex 224.843 152.687 19.0022
     endloop
   endfacet
   facet normal -0.475770156 -0.119555632 -0.871406455
@@ -56797,18 +56797,18 @@ solid gehaeuse
       vertex 217.497 148.4721 18.3783
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 18.8191
-      vertex 218.386 147.7883 18.4397
-      vertex 217.929 148.0937 18.4095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 18.818
       vertex 217.929 148.0937 18.4095
       vertex 217.91 148.1097 18.4084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 18.8191
+      vertex 218.386 147.7883 18.4397
+      vertex 217.929 148.0937 18.4095
     endloop
   endfacet
   facet normal 0.442421184 0.896807328 -0.000335598626
@@ -57940,9 +57940,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 18.0647
       vertex 216.8 153.7691 18.0658
       vertex 216.097 154.175 17.6138
+      vertex 216.813 153.7892 18.0647
     endloop
   endfacet
   facet normal 0.449950563 -0.195334434 -0.871429257
@@ -58113,18 +58113,18 @@ solid gehaeuse
       vertex 216.789 153.7473 16.9753
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 216.8 153.7691 16.9742
-      vertex 216.813 153.7892 16.5647
-      vertex 217.105 154.2262 16.9441
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 16.9753
       vertex 216.8 153.7691 16.5658
       vertex 216.8 153.7691 16.9742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 216.8 153.7691 16.9742
+      vertex 216.813 153.7892 16.5647
+      vertex 217.105 154.2262 16.9441
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -58171,9 +58171,9 @@ solid gehaeuse
   endfacet
   facet normal 0.470747512 -0.139746025 -0.871130202
     outer loop
+      vertex 216.254 152.1715 18.1584
       vertex 216.249 152.1478 18.1595
       vertex 215.444 152.2537 17.7075
-      vertex 216.254 152.1715 18.1584
     endloop
   endfacet
   facet normal 0.485505935 -0.0597073232 -0.872192079
@@ -58708,18 +58708,18 @@ solid gehaeuse
       vertex 216.546 149.8957 16.7845
     endloop
   endfacet
-  facet normal 0.891947377 0.452139223 0
-    outer loop
-      vertex 216.8 149.381 17.2242
-      vertex 216.8 149.381 16.8158
-      vertex 216.789 149.4027 16.8147
-    endloop
-  endfacet
   facet normal 0.831852456 0.554995993 0.000969077275
     outer loop
       vertex 216.813 149.3608 17.2253
       vertex 217.105 148.9238 16.8459
       vertex 216.8 149.381 16.8158
+    endloop
+  endfacet
+  facet normal 0.891947377 0.452139223 0
+    outer loop
+      vertex 216.8 149.381 17.2242
+      vertex 216.8 149.381 16.8158
+      vertex 216.789 149.4027 16.8147
     endloop
   endfacet
   facet normal 0.384469598 0.305010353 0.871293184
@@ -58829,9 +58829,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 16.5647
       vertex 216.8 153.7691 16.5658
       vertex 216.097 154.175 16.1138
+      vertex 216.813 153.7892 16.5647
     endloop
   endfacet
   facet normal 0.418768924 -0.256437978 -0.871132683
@@ -59079,18 +59079,18 @@ solid gehaeuse
       vertex 216.557 153.276 15.0959
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 15.4441
-      vertex 216.8 153.7691 15.4742
-      vertex 216.813 153.7892 15.0647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 15.4753
       vertex 216.8 153.7691 15.0658
       vertex 216.8 153.7691 15.4742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 15.4441
+      vertex 216.8 153.7691 15.4742
+      vertex 216.813 153.7892 15.0647
     endloop
   endfacet
   facet normal 0.944496797 -0.328520625 0
@@ -59130,9 +59130,9 @@ solid gehaeuse
   endfacet
   facet normal 0.470747512 -0.139746025 -0.871130202
     outer loop
+      vertex 216.254 152.1715 16.6584
       vertex 216.249 152.1478 16.6595
       vertex 215.444 152.2537 16.2075
-      vertex 216.254 152.1715 16.6584
     endloop
   endfacet
   facet normal 0.480057809 -0.0795941662 -0.873618492
@@ -59646,18 +59646,18 @@ solid gehaeuse
       vertex 216.789 149.4027 15.3147
     endloop
   endfacet
-  facet normal 0.891947377 0.452139223 0
-    outer loop
-      vertex 216.8 149.381 15.7242
-      vertex 216.8 149.381 15.3158
-      vertex 216.789 149.4027 15.3147
-    endloop
-  endfacet
   facet normal 0.831852456 0.554995993 0.000969077275
     outer loop
       vertex 216.813 149.3608 15.7253
       vertex 217.105 148.9238 15.3459
       vertex 216.8 149.381 15.3158
+    endloop
+  endfacet
+  facet normal 0.891947377 0.452139223 0
+    outer loop
+      vertex 216.8 149.381 15.7242
+      vertex 216.8 149.381 15.3158
+      vertex 216.789 149.4027 15.3147
     endloop
   endfacet
   facet normal 0.980531054 0.196363142 -0.000607541035
@@ -59788,9 +59788,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 15.0647
       vertex 216.8 153.7691 15.0658
       vertex 216.097 154.175 14.6138
+      vertex 216.813 153.7892 15.0647
     endloop
   endfacet
   facet normal 0.413291488 -0.256995766 -0.873580747
@@ -60024,18 +60024,18 @@ solid gehaeuse
       vertex 217.119 154.2463 13.943
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 13.9441
-      vertex 216.8 153.7691 13.9742
-      vertex 216.813 153.7892 13.5647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 13.9753
       vertex 216.8 153.7691 13.5658
       vertex 216.8 153.7691 13.9742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 13.9441
+      vertex 216.8 153.7691 13.9742
+      vertex 216.813 153.7892 13.5647
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -60626,18 +60626,18 @@ solid gehaeuse
       vertex 216.546 149.8957 13.7845
     endloop
   endfacet
-  facet normal 0.891947377 0.452139223 0
-    outer loop
-      vertex 216.8 149.381 14.2242
-      vertex 216.8 149.381 13.8158
-      vertex 216.789 149.4027 13.8147
-    endloop
-  endfacet
   facet normal 0.831852456 0.554995993 0.000969077275
     outer loop
       vertex 216.813 149.3608 14.2253
       vertex 217.105 148.9238 13.8459
       vertex 216.8 149.381 13.8158
+    endloop
+  endfacet
+  facet normal 0.891947377 0.452139223 0
+    outer loop
+      vertex 216.8 149.381 14.2242
+      vertex 216.8 149.381 13.8158
+      vertex 216.789 149.4027 13.8147
     endloop
   endfacet
   facet normal 0.980531054 0.196363142 -0.000607541035
@@ -60754,9 +60754,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 13.5647
       vertex 216.8 153.7691 13.5658
       vertex 216.097 154.175 13.1138
+      vertex 216.813 153.7892 13.5647
     endloop
   endfacet
   facet normal 0.413291488 -0.256995766 -0.873580747
@@ -60990,18 +60990,18 @@ solid gehaeuse
       vertex 216.361 152.7107 12.5367
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 12.4441
-      vertex 216.8 153.7691 12.4742
-      vertex 216.813 153.7892 12.0647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 12.4753
       vertex 216.8 153.7691 12.0658
       vertex 216.8 153.7691 12.4742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 12.4441
+      vertex 216.8 153.7691 12.4742
+      vertex 216.813 153.7892 12.0647
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -63993,18 +63993,18 @@ solid gehaeuse
       vertex 217.497 148.4721 16.8783
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 17.3191
-      vertex 218.386 147.7883 16.9397
-      vertex 217.929 148.0937 16.9095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 17.318
       vertex 217.929 148.0937 16.9095
       vertex 217.91 148.1097 16.9084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 17.3191
+      vertex 218.386 147.7883 16.9397
+      vertex 217.929 148.0937 16.9095
     endloop
   endfacet
   facet normal 0.559472855 0.828848674 0
@@ -67136,18 +67136,18 @@ solid gehaeuse
       vertex 217.481 148.4904 15.3772
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 15.8191
-      vertex 218.386 147.7883 15.4397
-      vertex 217.929 148.0937 15.4095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 15.818
       vertex 217.929 148.0937 15.4095
       vertex 217.91 148.1097 15.4084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 15.8191
+      vertex 218.386 147.7883 15.4397
+      vertex 217.929 148.0937 15.4095
     endloop
   endfacet
   facet normal 0.659552514 0.751658462 0.000193954285
@@ -70230,18 +70230,18 @@ solid gehaeuse
       vertex 219.464 147.3364 14.0033
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 14.4753
-      vertex 221.149 147.2229 14.0959
-      vertex 220.6 147.1869 14.0658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 14.4742
       vertex 220.6 147.1869 14.0658
       vertex 220.576 147.1885 14.0647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 14.4753
+      vertex 221.149 147.2229 14.0959
+      vertex 220.6 147.1869 14.0658
     endloop
   endfacet
   facet normal 0.0652615483 0.997868178 -0.000169616435
@@ -70272,18 +70272,18 @@ solid gehaeuse
       vertex 217.497 148.4721 13.8783
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 14.3191
-      vertex 218.386 147.7883 13.9397
-      vertex 217.929 148.0937 13.9095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 14.318
       vertex 217.929 148.0937 13.9095
       vertex 217.91 148.1097 13.9084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 14.3191
+      vertex 218.386 147.7883 13.9397
+      vertex 217.929 148.0937 13.9095
     endloop
   endfacet
   facet normal 0.559472855 0.828848674 0
@@ -71471,9 +71471,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 13.4397
       vertex 218.406 155.3752 13.4408
       vertex 218 156.0783 12.9888
-      vertex 218.428 155.3859 13.4397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -73380,18 +73380,18 @@ solid gehaeuse
       vertex 220.027 147.2244 12.5345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 12.9753
-      vertex 221.149 147.2229 12.5959
-      vertex 220.6 147.1869 12.5658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 12.9742
       vertex 220.6 147.1869 12.5658
       vertex 220.576 147.1885 12.5647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 12.9753
+      vertex 221.149 147.2229 12.5959
+      vertex 220.6 147.1869 12.5658
     endloop
   endfacet
   facet normal 0.752253562 0.65887371 -0.000108778002
@@ -73415,18 +73415,18 @@ solid gehaeuse
       vertex 217.497 148.4721 12.3783
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 12.8191
-      vertex 218.386 147.7883 12.4397
-      vertex 217.929 148.0937 12.4095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 12.818
       vertex 217.929 148.0937 12.4095
       vertex 217.91 148.1097 12.4084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 12.8191
+      vertex 218.386 147.7883 12.4397
+      vertex 217.929 148.0937 12.4095
     endloop
   endfacet
   facet normal 0.559472855 0.828848674 0
@@ -75865,18 +75865,18 @@ solid gehaeuse
       vertex 195.978 201.7703 8.6
     endloop
   endfacet
-  facet normal -0.682367954 0.0454608897 0.729593916
-    outer loop
-      vertex 195.92 201.4752 8.6
-      vertex 190.209 205.30554 3.02
-      vertex 195.9 201.175 8.6
-    endloop
-  endfacet
   facet normal -0.648135386 0.127386826 0.75079499
     outer loop
       vertex 195.978 201.7703 8.6
       vertex 190.209 205.30554 3.02
       vertex 195.92 201.4752 8.6
+    endloop
+  endfacet
+  facet normal -0.682367954 0.0454608897 0.729593916
+    outer loop
+      vertex 195.92 201.4752 8.6
+      vertex 190.209 205.30554 3.02
+      vertex 195.9 201.175 8.6
     endloop
   endfacet
   facet normal 0.0569927159 0.868791401 0.49188752
@@ -75923,9 +75923,9 @@ solid gehaeuse
   endfacet
   facet normal -0.648135831 -0.127386914 0.750794592
     outer loop
-      vertex 195.978 200.5797 8.6
       vertex 195.92 200.8748 8.6
       vertex 190.209 197.0445 3.02
+      vertex 195.978 200.5797 8.6
     endloop
   endfacet
   facet normal -0.61018502 -0.207749901 0.764535297
@@ -76628,18 +76628,18 @@ solid gehaeuse
       vertex 190.591 205.96837 3.02
     endloop
   endfacet
-  facet normal -0.436896317 0.496357976 0.750166893
-    outer loop
-      vertex 196.574 202.80134 8.6
-      vertex 190.591 205.96837 3.02
-      vertex 190.493 205.88211 3.02
-    endloop
-  endfacet
   facet normal -0.48578132 0.424780818 0.763922618
     outer loop
       vertex 196.574 202.80134 8.6
       vertex 190.493 205.88211 3.02
       vertex 190.407 205.78376 3.02
+    endloop
+  endfacet
+  facet normal -0.436896317 0.496357976 0.750166893
+    outer loop
+      vertex 196.574 202.80134 8.6
+      vertex 190.591 205.96837 3.02
+      vertex 190.493 205.88211 3.02
     endloop
   endfacet
   facet normal -0.24473781 0.721871752 0.64730563
@@ -76663,18 +76663,18 @@ solid gehaeuse
       vertex 191.069 206.16646 3.02
     endloop
   endfacet
-  facet normal -0.529298314 0.35526643 0.770473269
-    outer loop
-      vertex 196.208 202.325 8.6
-      vertex 190.407 205.78376 3.02
-      vertex 190.334 205.675 3.02
-    endloop
-  endfacet
   facet normal -0.571135928 0.282379029 0.770756664
     outer loop
       vertex 196.208 202.325 8.6
       vertex 190.334 205.675 3.02
       vertex 190.276 205.55769 3.02
+    endloop
+  endfacet
+  facet normal -0.529298314 0.35526643 0.770473269
+    outer loop
+      vertex 196.208 202.325 8.6
+      vertex 190.407 205.78376 3.02
+      vertex 190.334 205.675 3.02
     endloop
   endfacet
   facet normal -0.610565408 0.207021451 0.764429199
@@ -76719,18 +76719,18 @@ solid gehaeuse
       vertex 205.2 206.175 3.02
     endloop
   endfacet
-  facet normal 0.159044421 0.797402503 0.582111776
-    outer loop
-      vertex 198.795 203.39663 8.6
-      vertex 205.459 206.14093 3.02
-      vertex 205.331 206.16646 3.02
-    endloop
-  endfacet
   facet normal 0.24473781 0.721871752 0.64730563
     outer loop
       vertex 198.795 203.39663 8.6
       vertex 205.583 206.09889 3.02
       vertex 205.459 206.14093 3.02
+    endloop
+  endfacet
+  facet normal 0.159044421 0.797402503 0.582111776
+    outer loop
+      vertex 198.795 203.39663 8.6
+      vertex 205.459 206.14093 3.02
+      vertex 205.331 206.16646 3.02
     endloop
   endfacet
   facet normal 0.318797364 0.644647279 0.694836762
@@ -76873,18 +76873,18 @@ solid gehaeuse
       vertex 190.941 196.2091 3.02
     endloop
   endfacet
-  facet normal -0.158882891 -0.797529805 0.581981475
-    outer loop
-      vertex 197.605 198.9534 8.6
-      vertex 190.941 196.2091 3.02
-      vertex 191.069 196.1836 3.02
-    endloop
-  endfacet
   facet normal -0.0570337396 -0.868769755 0.491920996
     outer loop
       vertex 197.9 198.8947 8.6
       vertex 191.069 196.1836 3.02
       vertex 191.2 196.175 3.02
+    endloop
+  endfacet
+  facet normal -0.158882891 -0.797529805 0.581981475
+    outer loop
+      vertex 197.605 198.9534 8.6
+      vertex 190.941 196.2091 3.02
+      vertex 191.069 196.1836 3.02
     endloop
   endfacet
   facet normal -0.000122068247 -0.900099197 0.435685002
@@ -76992,18 +76992,18 @@ solid gehaeuse
       vertex 205.331 196.1836 3.02
     endloop
   endfacet
-  facet normal 0.244562902 -0.722042852 0.647180892
-    outer loop
-      vertex 198.795 198.9534 8.6
-      vertex 205.459 196.2091 3.02
-      vertex 205.583 196.2511 3.02
-    endloop
-  endfacet
   facet normal 0.158882891 -0.797529805 0.581981475
     outer loop
       vertex 198.795 198.9534 8.6
       vertex 205.331 196.1836 3.02
       vertex 205.459 196.2091 3.02
+    endloop
+  endfacet
+  facet normal 0.244562902 -0.722042852 0.647180892
+    outer loop
+      vertex 198.795 198.9534 8.6
+      vertex 205.459 196.2091 3.02
+      vertex 205.583 196.2511 3.02
     endloop
   endfacet
   facet normal 0.31894155 -0.644493287 0.694913441
@@ -77018,6 +77018,13 @@ solid gehaeuse
       vertex 201.2 197.6169 6
       vertex 201.2 196.175 3.02
       vertex 205.2 196.175 3.02
+    endloop
+  endfacet
+  facet normal -0.443286675 0.896379899 0
+    outer loop
+      vertex 190.7 206.04103 3.02
+      vertex 190.817 206.09889 3
+      vertex 190.7 206.04103 3
     endloop
   endfacet
   facet normal -0.554664963 0.832073782 0
@@ -77037,8 +77044,8 @@ solid gehaeuse
   facet normal -0.443286675 0.896379899 0
     outer loop
       vertex 190.7 206.04103 3.02
+      vertex 190.817 206.09889 3.02
       vertex 190.817 206.09889 3
-      vertex 190.7 206.04103 3
     endloop
   endfacet
   facet normal -0.195600424 0.980683677 0
@@ -77046,13 +77053,6 @@ solid gehaeuse
       vertex 190.941 206.14093 3.02
       vertex 191.069 206.16646 3
       vertex 190.941 206.14093 3
-    endloop
-  endfacet
-  facet normal -0.443286675 0.896379899 0
-    outer loop
-      vertex 190.7 206.04103 3.02
-      vertex 190.817 206.09889 3.02
-      vertex 190.817 206.09889 3
     endloop
   endfacet
   facet normal -0.32108108 0.947051709 0
@@ -77083,20 +77083,6 @@ solid gehaeuse
       vertex 190.407 205.78376 3
     endloop
   endfacet
-  facet normal -0.896420292 0.443204986 0
-    outer loop
-      vertex 190.334 205.675 3.02
-      vertex 190.334 205.675 3
-      vertex 190.276 205.55769 3
-    endloop
-  endfacet
-  facet normal -0.896420292 0.443204986 0
-    outer loop
-      vertex 190.276 205.55769 3.02
-      vertex 190.334 205.675 3.02
-      vertex 190.276 205.55769 3
-    endloop
-  endfacet
   facet normal -0.830307934 0.557304884 0
     outer loop
       vertex 190.407 205.78376 3.02
@@ -77109,6 +77095,20 @@ solid gehaeuse
       vertex 190.407 205.78376 3.02
       vertex 190.334 205.675 3
       vertex 190.334 205.675 3.02
+    endloop
+  endfacet
+  facet normal -0.896420292 0.443204986 0
+    outer loop
+      vertex 190.334 205.675 3.02
+      vertex 190.334 205.675 3
+      vertex 190.276 205.55769 3
+    endloop
+  endfacet
+  facet normal -0.896420292 0.443204986 0
+    outer loop
+      vertex 190.276 205.55769 3.02
+      vertex 190.334 205.675 3.02
+      vertex 190.276 205.55769 3
     endloop
   endfacet
   facet normal -0.660714225 0.750637538 0
@@ -77328,20 +77328,6 @@ solid gehaeuse
       vertex 205.459 206.14093 3
     endloop
   endfacet
-  facet normal 0.554664963 0.832073782 0
-    outer loop
-      vertex 205.7 206.04103 3.02
-      vertex 205.809 205.96837 3.02
-      vertex 205.809 205.96837 3
-    endloop
-  endfacet
-  facet normal 0.554664963 0.832073782 0
-    outer loop
-      vertex 205.7 206.04103 3.02
-      vertex 205.809 205.96837 3
-      vertex 205.7 206.04103 3
-    endloop
-  endfacet
   facet normal 0.443286675 0.896379899 0
     outer loop
       vertex 205.583 206.09889 3.02
@@ -77354,6 +77340,20 @@ solid gehaeuse
       vertex 205.583 206.09889 3.02
       vertex 205.7 206.04103 3
       vertex 205.583 206.09889 3
+    endloop
+  endfacet
+  facet normal 0.554664963 0.832073782 0
+    outer loop
+      vertex 205.7 206.04103 3.02
+      vertex 205.809 205.96837 3.02
+      vertex 205.809 205.96837 3
+    endloop
+  endfacet
+  facet normal 0.554664963 0.832073782 0
+    outer loop
+      vertex 205.7 206.04103 3.02
+      vertex 205.809 205.96837 3
+      vertex 205.7 206.04103 3
     endloop
   endfacet
   facet normal 0.32108108 0.947051709 0
@@ -77398,6 +77398,13 @@ solid gehaeuse
       vertex 205.993 205.78376 3
     endloop
   endfacet
+  facet normal 0.830307934 0.557304884 0
+    outer loop
+      vertex 205.993 205.78376 3
+      vertex 206.066 205.675 3.02
+      vertex 206.066 205.675 3
+    endloop
+  endfacet
   facet normal 0.896420292 0.443204986 0
     outer loop
       vertex 206.124 205.55769 3.02
@@ -77410,13 +77417,6 @@ solid gehaeuse
       vertex 206.124 205.55769 3.02
       vertex 206.066 205.675 3
       vertex 206.066 205.675 3.02
-    endloop
-  endfacet
-  facet normal 0.830307934 0.557304884 0
-    outer loop
-      vertex 205.993 205.78376 3
-      vertex 206.066 205.675 3.02
-      vertex 206.066 205.675 3
     endloop
   endfacet
   facet normal 0 0 1
@@ -77468,11 +77468,11 @@ solid gehaeuse
       vertex 230.273 206.925 3
     endloop
   endfacet
-  facet normal -0 0 1
+  facet normal 0 -0 1
     outer loop
-      vertex 205.907 205.88211 3
       vertex 205.993 205.78376 3
       vertex 230.273 206.925 3
+      vertex 205.907 205.88211 3
     endloop
   endfacet
   facet normal -0 0 1
@@ -77510,20 +77510,6 @@ solid gehaeuse
       vertex 230.273 206.925 3
     endloop
   endfacet
-  facet normal 0.981534064 0.191287431 0
-    outer loop
-      vertex 206.191 205.30554 3.02
-      vertex 206.191 205.30554 3
-      vertex 206.166 205.43382 3
-    endloop
-  endfacet
-  facet normal 0.981534064 0.191287431 0
-    outer loop
-      vertex 206.191 205.30554 3.02
-      vertex 206.166 205.43382 3
-      vertex 206.166 205.43382 3.02
-    endloop
-  endfacet
   facet normal 0.947042237 0.321109017 0
     outer loop
       vertex 206.124 205.55769 3
@@ -77536,6 +77522,20 @@ solid gehaeuse
       vertex 206.124 205.55769 3.02
       vertex 206.166 205.43382 3.02
       vertex 206.124 205.55769 3
+    endloop
+  endfacet
+  facet normal 0.981534064 0.191287431 0
+    outer loop
+      vertex 206.191 205.30554 3.02
+      vertex 206.191 205.30554 3
+      vertex 206.166 205.43382 3
+    endloop
+  endfacet
+  facet normal 0.981534064 0.191287431 0
+    outer loop
+      vertex 206.191 205.30554 3.02
+      vertex 206.166 205.43382 3
+      vertex 206.166 205.43382 3.02
     endloop
   endfacet
   facet normal 0.997631775 0.0687811091 0
@@ -77671,6 +77671,13 @@ solid gehaeuse
       vertex 190.591 196.3816 3.02
     endloop
   endfacet
+  facet normal -0.44353286 -0.896258111 -0
+    outer loop
+      vertex 190.7 196.309 3.02
+      vertex 190.7 196.309 3
+      vertex 190.817 196.2511 3.02
+    endloop
+  endfacet
   facet normal -0.554347732 -0.832285163 -0
     outer loop
       vertex 190.7 196.309 3.02
@@ -77683,13 +77690,6 @@ solid gehaeuse
       vertex 190.591 196.3816 3.02
       vertex 190.591 196.3816 3
       vertex 190.7 196.309 3.02
-    endloop
-  endfacet
-  facet normal -0.44353286 -0.896258111 -0
-    outer loop
-      vertex 190.7 196.309 3.02
-      vertex 190.7 196.309 3
-      vertex 190.817 196.2511 3.02
     endloop
   endfacet
   facet normal -0.660886806 -0.750485596 0
@@ -77697,13 +77697,6 @@ solid gehaeuse
       vertex 190.493 196.4679 3
       vertex 190.591 196.3816 3
       vertex 190.591 196.3816 3.02
-    endloop
-  endfacet
-  facet normal -0.44353286 -0.896258111 -0
-    outer loop
-      vertex 190.817 196.2511 3.02
-      vertex 190.7 196.309 3
-      vertex 190.817 196.2511 3
     endloop
   endfacet
   facet normal -0.320807034 -0.947144576 -0
@@ -77718,6 +77711,13 @@ solid gehaeuse
       vertex 190.817 196.2511 3.02
       vertex 190.817 196.2511 3
       vertex 190.941 196.2091 3.02
+    endloop
+  endfacet
+  facet normal -0.44353286 -0.896258111 -0
+    outer loop
+      vertex 190.817 196.2511 3.02
+      vertex 190.7 196.309 3
+      vertex 190.817 196.2511 3
     endloop
   endfacet
   facet normal -0.195379355 -0.980727744 -0
@@ -77778,9 +77778,9 @@ solid gehaeuse
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 190.407 196.5663 3
       vertex 190.334 196.675 3
       vertex 190.407 177.7838 3
+      vertex 190.407 196.5663 3
     endloop
   endfacet
   facet normal 0 0 1
@@ -77792,9 +77792,9 @@ solid gehaeuse
   endfacet
   facet normal 0 0 1
     outer loop
+      vertex 190.7 196.309 3
       vertex 190.591 196.3816 3
       vertex 190.7 178.041 3
-      vertex 190.7 196.309 3
     endloop
   endfacet
   facet normal 0 0 1
@@ -77937,11 +77937,18 @@ solid gehaeuse
       vertex 206.191 197.0445 3
     endloop
   endfacet
-  facet normal 0.660886806 -0.750485596 0
+  facet normal 0.752955784 -0.658071112 0
     outer loop
       vertex 205.907 196.4679 3.02
-      vertex 205.809 196.3816 3
       vertex 205.907 196.4679 3
+      vertex 205.993 196.5663 3
+    endloop
+  endfacet
+  facet normal 0.752955784 -0.658071112 0
+    outer loop
+      vertex 205.993 196.5663 3.02
+      vertex 205.907 196.4679 3.02
+      vertex 205.993 196.5663 3
     endloop
   endfacet
   facet normal 0.830165585 -0.557516906 0
@@ -77951,18 +77958,11 @@ solid gehaeuse
       vertex 206.066 196.675 3
     endloop
   endfacet
-  facet normal 0.752955784 -0.658071112 0
+  facet normal 0.660886806 -0.750485596 0
     outer loop
       vertex 205.907 196.4679 3.02
+      vertex 205.809 196.3816 3
       vertex 205.907 196.4679 3
-      vertex 205.993 196.5663 3
-    endloop
-  endfacet
-  facet normal 0.752955784 -0.658071112 0
-    outer loop
-      vertex 205.993 196.5663 3.02
-      vertex 205.907 196.4679 3.02
-      vertex 205.993 196.5663 3
     endloop
   endfacet
   facet normal 0.947065879 -0.321039281 0
@@ -78000,20 +78000,6 @@ solid gehaeuse
       vertex 205.583 196.2511 3.02
     endloop
   endfacet
-  facet normal 0.554347732 -0.832285163 0
-    outer loop
-      vertex 205.809 196.3816 3.02
-      vertex 205.7 196.309 3
-      vertex 205.809 196.3816 3
-    endloop
-  endfacet
-  facet normal 0.554347732 -0.832285163 0
-    outer loop
-      vertex 205.7 196.309 3.02
-      vertex 205.7 196.309 3
-      vertex 205.809 196.3816 3.02
-    endloop
-  endfacet
   facet normal 0.44353286 -0.896258111 0
     outer loop
       vertex 205.7 196.309 3.02
@@ -78026,6 +78012,20 @@ solid gehaeuse
       vertex 205.583 196.2511 3.02
       vertex 205.583 196.2511 3
       vertex 205.7 196.309 3.02
+    endloop
+  endfacet
+  facet normal 0.554347732 -0.832285163 0
+    outer loop
+      vertex 205.809 196.3816 3.02
+      vertex 205.7 196.309 3
+      vertex 205.809 196.3816 3
+    endloop
+  endfacet
+  facet normal 0.554347732 -0.832285163 0
+    outer loop
+      vertex 205.7 196.309 3.02
+      vertex 205.7 196.309 3
+      vertex 205.809 196.3816 3.02
     endloop
   endfacet
   facet normal 0.660886806 -0.750485596 0
@@ -78112,11 +78112,11 @@ solid gehaeuse
       vertex 205.2 178.175 3
     endloop
   endfacet
-  facet normal -0 0 1
+  facet normal 0 0 1
     outer loop
+      vertex 205.993 196.5663 3
       vertex 205.907 196.4679 3
       vertex 205.2 178.175 3
-      vertex 205.993 196.5663 3
     endloop
   endfacet
   facet normal -0 0 1
@@ -79792,18 +79792,18 @@ solid gehaeuse
       vertex 195.2 176.7331 6
     endloop
   endfacet
-  facet normal -0.380493942 0.571265009 0.727241809
-    outer loop
-      vertex 197.05 175.1669 8.6
-      vertex 190.7 178.041 3.02
-      vertex 190.591 177.9684 3.02
-    endloop
-  endfacet
   facet normal -0.31894155 0.644493287 0.694913441
     outer loop
       vertex 197.05 175.1669 8.6
       vertex 190.817 178.0989 3.02
       vertex 190.7 178.041 3.02
+    endloop
+  endfacet
+  facet normal -0.380493942 0.571265009 0.727241809
+    outer loop
+      vertex 197.05 175.1669 8.6
+      vertex 190.7 178.041 3.02
+      vertex 190.591 177.9684 3.02
     endloop
   endfacet
   facet normal -0.529354856 0.355173755 0.770477151
@@ -79918,18 +79918,18 @@ solid gehaeuse
       vertex 205.2 178.175 3.02
     endloop
   endfacet
-  facet normal 0.159421088 0.79710544 0.582415517
-    outer loop
-      vertex 198.795 175.3966 8.6
-      vertex 205.459 178.1409 3.02
-      vertex 205.331 178.1665 3.02
-    endloop
-  endfacet
   facet normal 0.244562902 0.722042852 0.647180892
     outer loop
       vertex 198.795 175.3966 8.6
       vertex 205.583 178.0989 3.02
       vertex 205.459 178.1409 3.02
+    endloop
+  endfacet
+  facet normal 0.159421088 0.79710544 0.582415517
+    outer loop
+      vertex 198.795 175.3966 8.6
+      vertex 205.459 178.1409 3.02
+      vertex 205.331 178.1665 3.02
     endloop
   endfacet
   facet normal 0.31894155 0.644493287 0.694913441
@@ -79974,18 +79974,18 @@ solid gehaeuse
       vertex 206.066 177.675 3.02
     endloop
   endfacet
-  facet normal 0.648563264 0.126376318 0.750596242
-    outer loop
-      vertex 200.422 173.7703 8.6
-      vertex 206.191 177.3055 3.02
-      vertex 206.166 177.4338 3.02
-    endloop
-  endfacet
   facet normal 0.610587451 0.206978797 0.764423144
     outer loop
       vertex 200.422 173.7703 8.6
       vertex 206.166 177.4338 3.02
       vertex 206.124 177.5577 3.02
+    endloop
+  endfacet
+  facet normal 0.648563264 0.126376318 0.750596242
+    outer loop
+      vertex 200.422 173.7703 8.6
+      vertex 206.191 177.3055 3.02
+      vertex 206.166 177.4338 3.02
     endloop
   endfacet
   facet normal 0.68177158 0.0470187296 0.730052568
@@ -80030,18 +80030,18 @@ solid gehaeuse
       vertex 190.276 168.7923 3.02
     endloop
   endfacet
-  facet normal -0.529213435 -0.355405527 0.770467425
-    outer loop
-      vertex 196.208 172.025 8.6
-      vertex 190.334 168.675 3.02
-      vertex 190.407 168.5663 3.02
-    endloop
-  endfacet
   facet normal -0.571125684 -0.282398036 0.770757292
     outer loop
       vertex 196.208 172.025 8.6
       vertex 190.276 168.7923 3.02
       vertex 190.334 168.675 3.02
+    endloop
+  endfacet
+  facet normal -0.529213435 -0.355405527 0.770467425
+    outer loop
+      vertex 196.208 172.025 8.6
+      vertex 190.334 168.675 3.02
+      vertex 190.407 168.5663 3.02
     endloop
   endfacet
   facet normal -0.485869245 -0.42464182 0.763943978
@@ -80310,18 +80310,18 @@ solid gehaeuse
       vertex 190.591 177.9684 3
     endloop
   endfacet
-  facet normal -0.196116135 0.980580676 0
-    outer loop
-      vertex 190.941 178.1409 3.02
-      vertex 191.069 178.1665 3
-      vertex 190.941 178.1409 3
-    endloop
-  endfacet
   facet normal -0.44353286 0.896258111 0
     outer loop
       vertex 190.7 178.041 3.02
       vertex 190.817 178.0989 3.02
       vertex 190.817 178.0989 3
+    endloop
+  endfacet
+  facet normal -0.196116135 0.980580676 0
+    outer loop
+      vertex 190.941 178.1409 3.02
+      vertex 191.069 178.1665 3
+      vertex 190.941 178.1409 3
     endloop
   endfacet
   facet normal -0.320807034 0.947144576 0
@@ -80534,11 +80534,11 @@ solid gehaeuse
       vertex 237.906 199.9442 3
     endloop
   endfacet
-  facet normal 0 -0 1
+  facet normal -0 0 1
     outer loop
+      vertex 206.066 177.675 3
       vertex 206.124 177.5577 3
       vertex 237.906 199.9442 3
-      vertex 206.066 177.675 3
     endloop
   endfacet
   facet normal 0 1 0
@@ -80569,6 +80569,13 @@ solid gehaeuse
       vertex 205.2 178.175 3
     endloop
   endfacet
+  facet normal 0.320807034 0.947144576 0
+    outer loop
+      vertex 205.459 178.1409 3.02
+      vertex 205.583 178.0989 3
+      vertex 205.459 178.1409 3
+    endloop
+  endfacet
   facet normal 0.196116135 0.980580676 0
     outer loop
       vertex 205.331 178.1665 3.02
@@ -80586,21 +80593,7 @@ solid gehaeuse
   facet normal 0.320807034 0.947144576 0
     outer loop
       vertex 205.459 178.1409 3.02
-      vertex 205.583 178.0989 3
-      vertex 205.459 178.1409 3
-    endloop
-  endfacet
-  facet normal 0.44353286 0.896258111 0
-    outer loop
       vertex 205.583 178.0989 3.02
-      vertex 205.7 178.041 3.02
-      vertex 205.7 178.041 3
-    endloop
-  endfacet
-  facet normal 0.44353286 0.896258111 0
-    outer loop
-      vertex 205.583 178.0989 3.02
-      vertex 205.7 178.041 3
       vertex 205.583 178.0989 3
     endloop
   endfacet
@@ -80618,25 +80611,18 @@ solid gehaeuse
       vertex 205.7 178.041 3
     endloop
   endfacet
-  facet normal 0.320807034 0.947144576 0
+  facet normal 0.44353286 0.896258111 0
     outer loop
-      vertex 205.459 178.1409 3.02
       vertex 205.583 178.0989 3.02
+      vertex 205.7 178.041 3.02
+      vertex 205.7 178.041 3
+    endloop
+  endfacet
+  facet normal 0.44353286 0.896258111 0
+    outer loop
+      vertex 205.583 178.0989 3.02
+      vertex 205.7 178.041 3
       vertex 205.583 178.0989 3
-    endloop
-  endfacet
-  facet normal 0.660886806 0.750485596 0
-    outer loop
-      vertex 205.809 177.9684 3.02
-      vertex 205.907 177.8821 3.02
-      vertex 205.907 177.8821 3
-    endloop
-  endfacet
-  facet normal 0.660886806 0.750485596 0
-    outer loop
-      vertex 205.809 177.9684 3.02
-      vertex 205.907 177.8821 3
-      vertex 205.809 177.9684 3
     endloop
   endfacet
   facet normal 0.752624122 0.658450402 0
@@ -80651,6 +80637,20 @@ solid gehaeuse
       vertex 205.993 177.7838 3.02
       vertex 205.907 177.8821 3
       vertex 205.907 177.8821 3.02
+    endloop
+  endfacet
+  facet normal 0.660886806 0.750485596 0
+    outer loop
+      vertex 205.809 177.9684 3.02
+      vertex 205.907 177.8821 3.02
+      vertex 205.907 177.8821 3
+    endloop
+  endfacet
+  facet normal 0.660886806 0.750485596 0
+    outer loop
+      vertex 205.809 177.9684 3.02
+      vertex 205.907 177.8821 3
+      vertex 205.809 177.9684 3
     endloop
   endfacet
   facet normal 0.830402744 0.557163606 0
@@ -80679,6 +80679,20 @@ solid gehaeuse
       vertex 206.124 177.5577 3.02
       vertex 206.066 177.675 3
       vertex 206.066 177.675 3.02
+    endloop
+  endfacet
+  facet normal 0.947065879 0.321039281 0
+    outer loop
+      vertex 206.166 177.4338 3.02
+      vertex 206.166 177.4338 3
+      vertex 206.124 177.5577 3
+    endloop
+  endfacet
+  facet normal 0.947065879 0.321039281 0
+    outer loop
+      vertex 206.124 177.5577 3.02
+      vertex 206.166 177.4338 3.02
+      vertex 206.124 177.5577 3
     endloop
   endfacet
   facet normal 0.981539662 0.191258703 0
@@ -80686,20 +80700,6 @@ solid gehaeuse
       vertex 206.166 177.4338 3.02
       vertex 206.191 177.3055 3.02
       vertex 206.166 177.4338 3
-    endloop
-  endfacet
-  facet normal 0.947065879 0.321039281 0
-    outer loop
-      vertex 206.166 177.4338 3.02
-      vertex 206.166 177.4338 3
-      vertex 206.124 177.5577 3
-    endloop
-  endfacet
-  facet normal 0.947065879 0.321039281 0
-    outer loop
-      vertex 206.124 177.5577 3.02
-      vertex 206.166 177.4338 3.02
-      vertex 206.124 177.5577 3
     endloop
   endfacet
   facet normal 0.981539662 0.191258703 0
@@ -80835,20 +80835,6 @@ solid gehaeuse
       vertex 190.407 168.5663 3.02
     endloop
   endfacet
-  facet normal -0.660886806 -0.750485596 0
-    outer loop
-      vertex 190.493 168.4679 3
-      vertex 190.591 168.3816 3
-      vertex 190.591 168.3816 3.02
-    endloop
-  endfacet
-  facet normal -0.660886806 -0.750485596 -0
-    outer loop
-      vertex 190.493 168.4679 3.02
-      vertex 190.493 168.4679 3
-      vertex 190.591 168.3816 3.02
-    endloop
-  endfacet
   facet normal -0.554347732 -0.832285163 -0
     outer loop
       vertex 190.7 168.309 3.02
@@ -80868,6 +80854,20 @@ solid gehaeuse
       vertex 190.7 168.309 3.02
       vertex 190.7 168.309 3
       vertex 190.817 168.2511 3.02
+    endloop
+  endfacet
+  facet normal -0.660886806 -0.750485596 0
+    outer loop
+      vertex 190.493 168.4679 3
+      vertex 190.591 168.3816 3
+      vertex 190.591 168.3816 3.02
+    endloop
+  endfacet
+  facet normal -0.660886806 -0.750485596 -0
+    outer loop
+      vertex 190.493 168.4679 3.02
+      vertex 190.493 168.4679 3
+      vertex 190.591 168.3816 3.02
     endloop
   endfacet
   facet normal -0.44353286 -0.896258111 -0
@@ -81150,13 +81150,6 @@ solid gehaeuse
       vertex 205.459 168.2091 3.02
     endloop
   endfacet
-  facet normal 0.947065879 -0.321039281 0
-    outer loop
-      vertex 206.124 168.7923 3.02
-      vertex 206.166 168.9162 3
-      vertex 206.166 168.9162 3.02
-    endloop
-  endfacet
   facet normal 0.981539662 -0.191258703 0
     outer loop
       vertex 206.166 168.9162 3.02
@@ -81174,8 +81167,8 @@ solid gehaeuse
   facet normal 0.947065879 -0.321039281 0
     outer loop
       vertex 206.124 168.7923 3.02
-      vertex 206.124 168.7923 3
       vertex 206.166 168.9162 3
+      vertex 206.166 168.9162 3.02
     endloop
   endfacet
   facet normal 0.89640528 -0.443235348 0
@@ -81190,6 +81183,13 @@ solid gehaeuse
       vertex 206.124 168.7923 3.02
       vertex 206.066 168.675 3.02
       vertex 206.124 168.7923 3
+    endloop
+  endfacet
+  facet normal 0.947065879 -0.321039281 0
+    outer loop
+      vertex 206.124 168.7923 3.02
+      vertex 206.124 168.7923 3
+      vertex 206.166 168.9162 3
     endloop
   endfacet
   facet normal 0.830165585 -0.557516906 0
@@ -81290,11 +81290,11 @@ solid gehaeuse
       vertex 206.124 168.7923 3
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal -0 0 1
     outer loop
-      vertex 206.166 168.9162 3
       vertex 206.124 168.7923 3
       vertex 211.6 163.575 3
+      vertex 206.166 168.9162 3
     endloop
   endfacet
   facet normal 0 0 1
@@ -81318,11 +81318,11 @@ solid gehaeuse
       vertex 205.907 168.4679 3
     endloop
   endfacet
-  facet normal -0 0 1
+  facet normal 0 0 1
     outer loop
+      vertex 205.993 168.5663 3
       vertex 205.907 168.4679 3
       vertex 211.6 163.575 3
-      vertex 205.993 168.5663 3
     endloop
   endfacet
   facet normal -0 0 1
@@ -81381,11 +81381,11 @@ solid gehaeuse
       vertex 244.95 195.8729 3
     endloop
   endfacet
-  facet normal 0 -0 1
+  facet normal -0 0 1
     outer loop
+      vertex 206.124 177.5577 3
       vertex 206.166 177.4338 3
       vertex 242.95 194.2478 3
-      vertex 206.124 177.5577 3
     endloop
   endfacet
   facet normal -0 0 1
@@ -86906,9 +86906,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 12.0647
       vertex 216.8 153.7691 12.0658
       vertex 216.097 154.175 11.6138
+      vertex 216.813 153.7892 12.0647
     endloop
   endfacet
   facet normal 0.413291488 -0.256995766 -0.873580747
@@ -87163,18 +87163,18 @@ solid gehaeuse
       vertex 216.361 152.7107 11.0367
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 10.9441
-      vertex 216.8 153.7691 10.9742
-      vertex 216.813 153.7892 10.5647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 10.9753
       vertex 216.8 153.7691 10.5658
       vertex 216.8 153.7691 10.9742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 10.9441
+      vertex 216.8 153.7691 10.9742
+      vertex 216.813 153.7892 10.5647
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -87879,9 +87879,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 10.5647
       vertex 216.8 153.7691 10.5658
       vertex 216.097 154.175 10.1138
+      vertex 216.813 153.7892 10.5647
     endloop
   endfacet
   facet normal 0.418768924 -0.256437978 -0.871132683
@@ -88143,18 +88143,18 @@ solid gehaeuse
       vertex 216.361 152.7107 9.5367
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 9.4441
-      vertex 216.8 153.7691 9.4742
-      vertex 216.813 153.7892 9.0647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 9.4753
       vertex 216.8 153.7691 9.0658
       vertex 216.8 153.7691 9.4742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 9.4441
+      vertex 216.8 153.7691 9.4742
+      vertex 216.813 153.7892 9.0647
     endloop
   endfacet
   facet normal 0.839682219 -0.543078052 0
@@ -88859,9 +88859,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 9.0647
       vertex 216.8 153.7691 9.0658
       vertex 216.097 154.175 8.6138
+      vertex 216.813 153.7892 9.0647
     endloop
   endfacet
   facet normal 0.413291488 -0.256995766 -0.873580747
@@ -89081,18 +89081,18 @@ solid gehaeuse
       vertex 217.135 154.2645 7.5334
     endloop
   endfacet
-  facet normal 0.83180045 -0.555074146 -0.000839034155
-    outer loop
-      vertex 217.105 154.2262 7.9441
-      vertex 216.8 153.7691 7.9742
-      vertex 216.813 153.7892 7.5647
-    endloop
-  endfacet
   facet normal 0.892783056 -0.450486863 0
     outer loop
       vertex 216.789 153.7473 7.9753
       vertex 216.8 153.7691 7.5658
       vertex 216.8 153.7691 7.9742
+    endloop
+  endfacet
+  facet normal 0.83180045 -0.555074146 -0.000839034155
+    outer loop
+      vertex 217.105 154.2262 7.9441
+      vertex 216.8 153.7691 7.9742
+      vertex 216.813 153.7892 7.5647
     endloop
   endfacet
   facet normal 0.896975858 -0.442079025 0.000668016583
@@ -89846,9 +89846,9 @@ solid gehaeuse
   endfacet
   facet normal 0.388096093 -0.298721378 -0.871864072
     outer loop
-      vertex 216.813 153.7892 7.5647
       vertex 216.8 153.7691 7.5658
       vertex 216.097 154.175 7.1138
+      vertex 216.813 153.7892 7.5647
     endloop
   endfacet
   facet normal 0.413291488 -0.256995766 -0.873580747
@@ -90168,9 +90168,9 @@ solid gehaeuse
   endfacet
   facet normal 0.491427873 -0.0192705656 -0.870705054
     outer loop
+      vertex 216.248 151.0264 7.7209
       vertex 216.249 151.0022 7.722
       vertex 215.444 150.8963 7.27
-      vertex 216.248 151.0264 7.7209
     endloop
   endfacet
   facet normal 0.471475537 -0.134738959 -0.871525233
@@ -90707,9 +90707,9 @@ solid gehaeuse
   endfacet
   facet normal 0.453337048 0.185609582 -0.871799635
     outer loop
-      vertex 216.789 149.4027 6.3147
       vertex 216.8 149.381 6.3158
       vertex 216.097 148.975 5.8638
+      vertex 216.789 149.4027 6.3147
     endloop
   endfacet
   facet normal 0.83101929 0.556242494 -0.00110790021
@@ -91141,9 +91141,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 11.9397
       vertex 218.406 155.3752 11.9408
       vertex 218 156.0783 11.4888
-      vertex 218.428 155.3859 11.9397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -93036,18 +93036,18 @@ solid gehaeuse
       vertex 220.027 147.2244 11.0345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 11.4753
-      vertex 221.149 147.2229 11.0959
-      vertex 220.6 147.1869 11.0658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 11.4742
       vertex 220.6 147.1869 11.0658
       vertex 220.576 147.1885 11.0647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 11.4753
+      vertex 221.149 147.2229 11.0959
+      vertex 220.6 147.1869 11.0658
     endloop
   endfacet
   facet normal 0.752831478 0.658213314 0
@@ -93071,18 +93071,18 @@ solid gehaeuse
       vertex 217.497 148.4721 10.8783
     endloop
   endfacet
-  facet normal 0.555610974 0.831442343 0.000274053099
-    outer loop
-      vertex 217.949 148.0802 11.3191
-      vertex 218.386 147.7883 10.9397
-      vertex 217.929 148.0937 10.9095
-    endloop
-  endfacet
   facet normal 0.644135746 0.764911198 0
     outer loop
       vertex 217.929 148.0937 11.318
       vertex 217.929 148.0937 10.9095
       vertex 217.91 148.1097 10.9084
+    endloop
+  endfacet
+  facet normal 0.555610974 0.831442343 0.000274053099
+    outer loop
+      vertex 217.949 148.0802 11.3191
+      vertex 218.386 147.7883 10.9397
+      vertex 217.929 148.0937 10.9095
     endloop
   endfacet
   facet normal 0.394034924 0.292130157 -0.87143356
@@ -94270,9 +94270,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 10.4397
       vertex 218.406 155.3752 10.4408
       vertex 218 156.0783 9.9888
-      vertex 218.428 155.3859 10.4397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -96186,18 +96186,18 @@ solid gehaeuse
       vertex 220.027 147.2244 9.5345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 9.9753
-      vertex 221.149 147.2229 9.5959
-      vertex 220.6 147.1869 9.5658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 9.9742
       vertex 220.6 147.1869 9.5658
       vertex 220.576 147.1885 9.5647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 9.9753
+      vertex 221.149 147.2229 9.5959
+      vertex 220.6 147.1869 9.5658
     endloop
   endfacet
   facet normal 0.752253562 0.65887371 -0.000108778002
@@ -97350,9 +97350,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 8.9397
       vertex 218.406 155.3752 8.9408
       vertex 218 156.0783 8.4888
-      vertex 218.428 155.3859 8.9397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -99322,18 +99322,18 @@ solid gehaeuse
       vertex 220.6 147.1869 8.4742
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 8.4753
-      vertex 221.149 147.2229 8.0959
-      vertex 220.6 147.1869 8.0658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 8.4742
       vertex 220.6 147.1869 8.0658
       vertex 220.576 147.1885 8.0647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 8.4753
+      vertex 221.149 147.2229 8.0959
+      vertex 220.6 147.1869 8.0658
     endloop
   endfacet
   facet normal 0.321164469 0.947023434 0
@@ -100486,9 +100486,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 7.4397
       vertex 218.406 155.3752 7.4408
       vertex 218 156.0783 6.9888
-      vertex 218.428 155.3859 7.4397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -101667,18 +101667,18 @@ solid gehaeuse
       vertex 224.411 149.4027 7.2253
     endloop
   endfacet
-  facet normal -0.831852456 0.554995993 -0.000969077275
-    outer loop
-      vertex 224.4 149.381 7.2242
-      vertex 224.387 149.3608 6.8147
-      vertex 224.095 148.9238 7.1941
-    endloop
-  endfacet
   facet normal -0.891947377 0.452139223 0
     outer loop
       vertex 224.411 149.4027 7.2253
       vertex 224.4 149.381 6.8158
       vertex 224.4 149.381 7.2242
+    endloop
+  endfacet
+  facet normal -0.831852456 0.554995993 -0.000969077275
+    outer loop
+      vertex 224.4 149.381 7.2242
+      vertex 224.387 149.3608 6.8147
+      vertex 224.095 148.9238 7.1941
     endloop
   endfacet
   facet normal -0.944496797 0.328520625 0
@@ -102479,18 +102479,18 @@ solid gehaeuse
       vertex 220.027 147.2244 6.5345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 6.9753
-      vertex 221.149 147.2229 6.5959
-      vertex 220.6 147.1869 6.5658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 6.9742
       vertex 220.6 147.1869 6.5658
       vertex 220.576 147.1885 6.5647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 6.9753
+      vertex 221.149 147.2229 6.5959
+      vertex 220.6 147.1869 6.5658
     endloop
   endfacet
   facet normal 0.321164469 0.947023434 0
@@ -103727,9 +103727,9 @@ solid gehaeuse
   endfacet
   facet normal 0.491427873 -0.0192705656 -0.870705054
     outer loop
+      vertex 216.248 151.0264 6.2209
       vertex 216.249 151.0022 6.222
       vertex 215.444 150.8963 5.77
-      vertex 216.248 151.0264 6.2209
     endloop
   endfacet
   facet normal 0.490151806 -0.00829109654 -0.871597651
@@ -104259,9 +104259,9 @@ solid gehaeuse
   endfacet
   facet normal 0.453337048 0.185609582 -0.871799635
     outer loop
-      vertex 216.789 149.4027 4.8147
       vertex 216.8 149.381 4.8158
       vertex 216.097 148.975 4.3638
+      vertex 216.789 149.4027 4.8147
     endloop
   endfacet
   facet normal 0.83101929 0.556242494 -0.00110790021
@@ -104686,9 +104686,9 @@ solid gehaeuse
   endfacet
   facet normal 0.491427873 -0.0192705656 -0.870705054
     outer loop
+      vertex 216.248 151.0264 4.7209
       vertex 216.249 151.0022 4.722
       vertex 215.444 150.8963 4.27
-      vertex 216.248 151.0264 4.7209
     endloop
   endfacet
   facet normal 0.490151806 -0.00829109654 -0.871597651
@@ -105148,9 +105148,9 @@ solid gehaeuse
   endfacet
   facet normal 0.491427873 -0.0192705656 -0.870705054
     outer loop
+      vertex 216.248 151.0264 3.2209
       vertex 216.249 151.0022 3.222
       vertex 215.444 150.8963 2.77
-      vertex 216.248 151.0264 3.2209
     endloop
   endfacet
   facet normal 0.986054504 0.166422701 0
@@ -105211,9 +105211,9 @@ solid gehaeuse
   endfacet
   facet normal 0.453337048 0.185609582 -0.871799635
     outer loop
-      vertex 216.789 149.4027 3.3147
       vertex 216.8 149.381 3.3158
       vertex 216.097 148.975 2.8638
+      vertex 216.789 149.4027 3.3147
     endloop
   endfacet
   facet normal 0.45561658 0.171059919 -0.873585735
@@ -106056,18 +106056,18 @@ solid gehaeuse
       vertex 216.212 151.575 2.0992
     endloop
   endfacet
-  facet normal 0.944496797 0.328520625 0
-    outer loop
-      vertex 216.369 150.4163 2.1628
-      vertex 216.361 150.4393 1.8
-      vertex 216.361 150.4393 2.1617
-    endloop
-  endfacet
   facet normal 0.980873434 0.19464662 0
     outer loop
       vertex 216.254 150.9785 2.1316
       vertex 216.361 150.4393 2.1617
       vertex 216.361 150.4393 1.8
+    endloop
+  endfacet
+  facet normal 0.944496797 0.328520625 0
+    outer loop
+      vertex 216.369 150.4163 2.1628
+      vertex 216.361 150.4393 1.8
+      vertex 216.361 150.4393 2.1617
     endloop
   endfacet
   facet normal 0.946774962 0.321896213 0
@@ -106555,9 +106555,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 5.9397
       vertex 218.406 155.3752 5.9408
       vertex 218 156.0783 5.4888
-      vertex 218.428 155.3859 5.9397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -107344,18 +107344,18 @@ solid gehaeuse
       vertex 218.899 155.6184 4.8191
     endloop
   endfacet
-  facet normal 0.321741394 -0.946827584 3.61252819e-05
-    outer loop
-      vertex 219.441 155.8058 4.7878
-      vertex 218.921 155.6291 4.818
-      vertex 218.944 155.6369 4.4084
-    endloop
-  endfacet
   facet normal 0.437376383 -0.899278544 0
     outer loop
       vertex 218.899 155.6184 4.8191
       vertex 218.921 155.6291 4.4095
       vertex 218.921 155.6291 4.818
+    endloop
+  endfacet
+  facet normal 0.321741394 -0.946827584 3.61252819e-05
+    outer loop
+      vertex 219.441 155.8058 4.7878
+      vertex 218.921 155.6291 4.818
+      vertex 218.944 155.6369 4.4084
     endloop
   endfacet
   facet normal 0.559472855 -0.828848674 0
@@ -107757,18 +107757,18 @@ solid gehaeuse
       vertex 224.643 149.874 5.3459
     endloop
   endfacet
-  facet normal -0.831852456 0.554995993 -0.000969077275
-    outer loop
-      vertex 224.4 149.381 5.7242
-      vertex 224.387 149.3608 5.3147
-      vertex 224.095 148.9238 5.6941
-    endloop
-  endfacet
   facet normal -0.891947377 0.452139223 0
     outer loop
       vertex 224.411 149.4027 5.7253
       vertex 224.4 149.381 5.3158
       vertex 224.4 149.381 5.7242
+    endloop
+  endfacet
+  facet normal -0.831852456 0.554995993 -0.000969077275
+    outer loop
+      vertex 224.4 149.381 5.7242
+      vertex 224.387 149.3608 5.3147
+      vertex 224.095 148.9238 5.6941
     endloop
   endfacet
   facet normal -0.944496797 0.328520625 0
@@ -108396,9 +108396,9 @@ solid gehaeuse
   endfacet
   facet normal -0.388725698 0.297652385 -0.87194919
     outer loop
-      vertex 224.387 149.3608 5.3147
       vertex 224.4 149.381 5.3158
       vertex 225.103 148.975 4.8638
+      vertex 224.387 149.3608 5.3147
     endloop
   endfacet
   facet normal 0.66203467 0.749473212 0
@@ -108576,18 +108576,18 @@ solid gehaeuse
       vertex 220.027 147.2244 5.0345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 5.4753
-      vertex 221.149 147.2229 5.0959
-      vertex 220.6 147.1869 5.0658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 5.4742
       vertex 220.6 147.1869 5.0658
       vertex 220.576 147.1885 5.0647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 5.4753
+      vertex 221.149 147.2229 5.0959
+      vertex 220.6 147.1869 5.0658
     endloop
   endfacet
   facet normal 0.321164469 0.947023434 0
@@ -109383,9 +109383,9 @@ solid gehaeuse
   endfacet
   facet normal 0.119599987 -0.475571701 -0.871508692
     outer loop
-      vertex 218.944 155.6369 4.4084
       vertex 218.921 155.6291 4.4095
       vertex 218.61 156.3792 3.9575
+      vertex 218.944 155.6369 4.4084
     endloop
   endfacet
   facet normal 0.195238375 -0.980755818 -5.34837137e-05
@@ -109677,9 +109677,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 4.4397
       vertex 218.406 155.3752 4.4408
       vertex 218 156.0783 3.9888
-      vertex 218.428 155.3859 4.4397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -110473,18 +110473,18 @@ solid gehaeuse
       vertex 218.899 155.6184 3.3191
     endloop
   endfacet
-  facet normal 0.321741394 -0.946827584 3.61252819e-05
-    outer loop
-      vertex 219.441 155.8058 3.2878
-      vertex 218.921 155.6291 3.318
-      vertex 218.944 155.6369 2.9084
-    endloop
-  endfacet
   facet normal 0.437376383 -0.899278544 0
     outer loop
       vertex 218.899 155.6184 3.3191
       vertex 218.921 155.6291 2.9095
       vertex 218.921 155.6291 3.318
+    endloop
+  endfacet
+  facet normal 0.321741394 -0.946827584 3.61252819e-05
+    outer loop
+      vertex 219.441 155.8058 3.2878
+      vertex 218.921 155.6291 3.318
+      vertex 218.944 155.6369 2.9084
     endloop
   endfacet
   facet normal 0.559472855 -0.828848674 0
@@ -110900,18 +110900,18 @@ solid gehaeuse
       vertex 224.643 149.874 3.8459
     endloop
   endfacet
-  facet normal -0.831852456 0.554995993 -0.000969077275
-    outer loop
-      vertex 224.4 149.381 4.2242
-      vertex 224.387 149.3608 3.8147
-      vertex 224.095 148.9238 4.1941
-    endloop
-  endfacet
   facet normal -0.891947377 0.452139223 0
     outer loop
       vertex 224.411 149.4027 4.2253
       vertex 224.4 149.381 3.8158
       vertex 224.4 149.381 4.2242
+    endloop
+  endfacet
+  facet normal -0.831852456 0.554995993 -0.000969077275
+    outer loop
+      vertex 224.4 149.381 4.2242
+      vertex 224.387 149.3608 3.8147
+      vertex 224.095 148.9238 4.1941
     endloop
   endfacet
   facet normal -0.946782266 0.321874457 0.000417835966
@@ -111532,9 +111532,9 @@ solid gehaeuse
   endfacet
   facet normal -0.388725698 0.297652385 -0.87194919
     outer loop
-      vertex 224.387 149.3608 3.8147
       vertex 224.4 149.381 3.8158
       vertex 225.103 148.975 3.3638
+      vertex 224.387 149.3608 3.8147
     endloop
   endfacet
   facet normal 0.752326984 0.658789881 4.54776328e-05
@@ -111712,18 +111712,18 @@ solid gehaeuse
       vertex 220.027 147.2244 3.5345
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 3.9753
-      vertex 221.149 147.2229 3.5959
-      vertex 220.6 147.1869 3.5658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 3.9742
       vertex 220.6 147.1869 3.5658
       vertex 220.576 147.1885 3.5647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 3.9753
+      vertex 221.149 147.2229 3.5959
+      vertex 220.6 147.1869 3.5658
     endloop
   endfacet
   facet normal 0.343590352 0.348046788 -0.872243718
@@ -112582,9 +112582,9 @@ solid gehaeuse
   endfacet
   facet normal 0.119599987 -0.475571701 -0.871508692
     outer loop
-      vertex 218.944 155.6369 2.9084
       vertex 218.921 155.6291 2.9095
       vertex 218.61 156.3792 2.4575
+      vertex 218.944 155.6369 2.9084
     endloop
   endfacet
   facet normal 0.195238375 -0.980755818 -5.34837137e-05
@@ -112890,9 +112890,9 @@ solid gehaeuse
   endfacet
   facet normal 0.178689465 -0.456976452 -0.87134528
     outer loop
+      vertex 218.428 155.3859 2.9397
       vertex 218.406 155.3752 2.9408
       vertex 218 156.0783 2.4888
-      vertex 218.428 155.3859 2.9397
     endloop
   endfacet
   facet normal 0.17117085 -0.455473345 -0.873638696
@@ -114045,9 +114045,9 @@ solid gehaeuse
   endfacet
   facet normal -0.490466488 -0.042379497 -0.870428976
     outer loop
-      vertex 224.843 152.687 2.5022
       vertex 224.839 152.7107 2.5033
       vertex 225.623 152.9209 2.0513
+      vertex 224.843 152.687 2.5022
     endloop
   endfacet
   facet normal 1 0 0
@@ -114246,18 +114246,18 @@ solid gehaeuse
       vertex 224.643 149.874 2.3459
     endloop
   endfacet
-  facet normal -0.831852456 0.554995993 -0.000969077275
-    outer loop
-      vertex 224.4 149.381 2.7242
-      vertex 224.387 149.3608 2.3147
-      vertex 224.095 148.9238 2.6941
-    endloop
-  endfacet
   facet normal -0.891947377 0.452139223 0
     outer loop
       vertex 224.411 149.4027 2.7253
       vertex 224.4 149.381 2.3158
       vertex 224.4 149.381 2.7242
+    endloop
+  endfacet
+  facet normal -0.831852456 0.554995993 -0.000969077275
+    outer loop
+      vertex 224.4 149.381 2.7242
+      vertex 224.387 149.3608 2.3147
+      vertex 224.095 148.9238 2.6941
     endloop
   endfacet
   facet normal -0.891947377 0.452139223 0
@@ -114899,9 +114899,9 @@ solid gehaeuse
   endfacet
   facet normal -0.388725698 0.297652385 -0.87194919
     outer loop
-      vertex 224.387 149.3608 2.3147
       vertex 224.4 149.381 2.3158
       vertex 225.103 148.975 1.8638
+      vertex 224.387 149.3608 2.3147
     endloop
   endfacet
   facet normal 0 0 1
@@ -115086,18 +115086,18 @@ solid gehaeuse
       vertex 220.003 147.2292 2.0334
     endloop
   endfacet
-  facet normal -0.0654297419 0.997857177 -6.41213109e-05
-    outer loop
-      vertex 220.624 147.1885 2.4753
-      vertex 221.149 147.2229 2.0959
-      vertex 220.6 147.1869 2.0658
-    endloop
-  endfacet
   facet normal 0.0665190105 0.997785158 0
     outer loop
       vertex 220.6 147.1869 2.4742
       vertex 220.6 147.1869 2.0658
       vertex 220.576 147.1885 2.0647
+    endloop
+  endfacet
+  facet normal -0.0654297419 0.997857177 -6.41213109e-05
+    outer loop
+      vertex 220.624 147.1885 2.4753
+      vertex 221.149 147.2229 2.0959
+      vertex 220.6 147.1869 2.0658
     endloop
   endfacet
   facet normal 0.0652615483 0.997868178 -0.000169616435
@@ -118572,18 +118572,18 @@ solid gehaeuse
       vertex 14 18.675 4
     endloop
   endfacet
-  facet normal -0.554700196 0.832050294 0
-    outer loop
-      vertex 14.4695 19.627 4
-      vertex 14.6 19.714 3
-      vertex 14.4695 19.627 3
-    endloop
-  endfacet
   facet normal -0.751786817 0.659406234 0
     outer loop
       vertex 14.3515 19.524 4
       vertex 14.3515 19.524 3
       vertex 14.248 19.406 3
+    endloop
+  endfacet
+  facet normal -0.554700196 0.832050294 0
+    outer loop
+      vertex 14.4695 19.627 4
+      vertex 14.6 19.714 3
+      vertex 14.4695 19.627 3
     endloop
   endfacet
   facet normal -0.657600137 0.753367148 0
@@ -119013,18 +119013,18 @@ solid gehaeuse
       vertex 41.4 19.714 3
     endloop
   endfacet
-  facet normal 0.657600137 0.753367148 0
-    outer loop
-      vertex 41.6485 19.524 4
-      vertex 41.6485 19.524 3
-      vertex 41.5305 19.627 4
-    endloop
-  endfacet
   facet normal 0.751786817 0.659406234 0
     outer loop
       vertex 41.6485 19.524 4
       vertex 41.752 19.406 4
       vertex 41.6485 19.524 3
+    endloop
+  endfacet
+  facet normal 0.657600137 0.753367148 0
+    outer loop
+      vertex 41.6485 19.524 4
+      vertex 41.6485 19.524 3
+      vertex 41.5305 19.627 4
     endloop
   endfacet
   facet normal 0.554700196 0.832050294 0
@@ -119559,18 +119559,18 @@ solid gehaeuse
       vertex 110.569 19.627 3
     endloop
   endfacet
-  facet normal -0.197340177 0.980335073 0
-    outer loop
-      vertex 110.989 19.834 4
-      vertex 111.143 19.865 4
-      vertex 111.143 19.865 3
-    endloop
-  endfacet
   facet normal -0.0635654568 0.997977671 0
     outer loop
       vertex 111.143 19.865 4
       vertex 111.3 19.875 4
       vertex 111.3 19.875 3
+    endloop
+  endfacet
+  facet normal -0.197340177 0.980335073 0
+    outer loop
+      vertex 110.989 19.834 4
+      vertex 111.143 19.865 4
+      vertex 111.143 19.865 3
     endloop
   endfacet
   facet normal -0.753367148 0.657600137 0
@@ -119643,18 +119643,18 @@ solid gehaeuse
       vertex 110.569 19.627 3
     endloop
   endfacet
-  facet normal -0.197340177 0.980335073 0
-    outer loop
-      vertex 110.989 19.834 4
-      vertex 111.143 19.865 3
-      vertex 110.989 19.834 3
-    endloop
-  endfacet
   facet normal -0.0635654568 0.997977671 0
     outer loop
       vertex 111.143 19.865 4
       vertex 111.3 19.875 3
       vertex 111.143 19.865 3
+    endloop
+  endfacet
+  facet normal -0.197340177 0.980335073 0
+    outer loop
+      vertex 110.989 19.834 4
+      vertex 111.143 19.865 3
+      vertex 110.989 19.834 3
     endloop
   endfacet
   facet normal 0 0 1
@@ -121330,18 +121330,18 @@ solid gehaeuse
       vertex 129.375 97.191 7
     endloop
   endfacet
-  facet normal -0.558722944 -0.82935437 -0
-    outer loop
-      vertex 129.375 97.191 7
-      vertex 129.375 97.191 2.5
-      vertex 129.565 97.063 7
-    endloop
-  endfacet
   facet normal -0.659740998 -0.751493057 -0
     outer loop
       vertex 129.565 97.063 7
       vertex 129.565 97.063 2.5
       vertex 129.737 96.912 7
+    endloop
+  endfacet
+  facet normal -0.558722944 -0.82935437 -0
+    outer loop
+      vertex 129.375 97.191 7
+      vertex 129.375 97.191 2.5
+      vertex 129.565 97.063 7
     endloop
   endfacet
   facet normal -0.751493057 -0.659740998 0
@@ -123290,18 +123290,18 @@ solid gehaeuse
       vertex 180.475 97.958 3
     endloop
   endfacet
-  facet normal -0.558722944 -0.82935437 -0
-    outer loop
-      vertex 178.375 97.191 7
-      vertex 178.375 97.191 2.5
-      vertex 178.565 97.063 7
-    endloop
-  endfacet
   facet normal -0.659740998 -0.751493057 -0
     outer loop
       vertex 178.565 97.063 7
       vertex 178.565 97.063 2.5
       vertex 178.737 96.912 7
+    endloop
+  endfacet
+  facet normal -0.558722944 -0.82935437 -0
+    outer loop
+      vertex 178.375 97.191 7
+      vertex 178.375 97.191 2.5
+      vertex 178.565 97.063 7
     endloop
   endfacet
   facet normal -0.751493057 -0.659740998 0
@@ -125208,17 +125208,17 @@ solid gehaeuse
       vertex 137.631 19.627 3
     endloop
   endfacet
-  facet normal 0.657600137 0.753367148 0
-    outer loop
-      vertex 137.631 19.627 4
-      vertex 137.749 19.524 4
-      vertex 137.749 19.524 3
-    endloop
-  endfacet
   facet normal 0.753367148 0.657600137 0
     outer loop
       vertex 137.749 19.524 4
       vertex 137.852 19.406 4
+      vertex 137.749 19.524 3
+    endloop
+  endfacet
+  facet normal 0.657600137 0.753367148 0
+    outer loop
+      vertex 137.631 19.627 4
+      vertex 137.749 19.524 4
       vertex 137.749 19.524 3
     endloop
   endfacet
@@ -125698,18 +125698,18 @@ solid gehaeuse
       vertex 206.669 19.627 3
     endloop
   endfacet
-  facet normal -0.320065966 0.947395259 0
-    outer loop
-      vertex 206.941 19.784 4
-      vertex 207.089 19.834 4
-      vertex 207.089 19.834 3
-    endloop
-  endfacet
   facet normal -0.197340177 0.980335073 0
     outer loop
       vertex 207.089 19.834 4
       vertex 207.243 19.865 4
       vertex 207.243 19.865 3
+    endloop
+  endfacet
+  facet normal -0.320065966 0.947395259 0
+    outer loop
+      vertex 206.941 19.784 4
+      vertex 207.089 19.834 4
+      vertex 207.089 19.834 3
     endloop
   endfacet
   facet normal -0.0635654568 0.997977671 0
@@ -125775,18 +125775,18 @@ solid gehaeuse
       vertex 206.8 19.714 3
     endloop
   endfacet
-  facet normal -0.553231875 0.833027306 0
-    outer loop
-      vertex 206.669 19.627 4
-      vertex 206.8 19.714 3
-      vertex 206.669 19.627 3
-    endloop
-  endfacet
   facet normal -0.753367148 0.657600137 0
     outer loop
       vertex 206.551 19.524 4
       vertex 206.551 19.524 3
       vertex 206.448 19.406 3
+    endloop
+  endfacet
+  facet normal -0.553231875 0.833027306 0
+    outer loop
+      vertex 206.669 19.627 4
+      vertex 206.8 19.714 3
+      vertex 206.669 19.627 3
     endloop
   endfacet
   facet normal -0.657600137 0.753367148 0
@@ -126062,18 +126062,18 @@ solid gehaeuse
       vertex 233.6 19.714 3
     endloop
   endfacet
-  facet normal 0.657600137 0.753367148 0
-    outer loop
-      vertex 233.849 19.524 4
-      vertex 233.849 19.524 3
-      vertex 233.731 19.627 4
-    endloop
-  endfacet
   facet normal 0.753367148 0.657600137 0
     outer loop
       vertex 233.849 19.524 4
       vertex 233.952 19.406 4
       vertex 233.849 19.524 3
+    endloop
+  endfacet
+  facet normal 0.657600137 0.753367148 0
+    outer loop
+      vertex 233.849 19.524 4
+      vertex 233.849 19.524 3
+      vertex 233.731 19.627 4
     endloop
   endfacet
   facet normal 0.553231875 0.833027306 0
